@@ -1,0 +1,20 @@
+{
+  "name": "Quick Draw",
+  "version": "1.0.0",
+  "system": "pathfinder2e",
+  "description": "You can draw weapons with incredible speed, allowing you to seamlessly transition into combat",
+  "author": "TRPG Line Community",
+  "type": "feat",
+  "tags": ["general", "skill"],
+  "data": {
+    "level": 1,
+    "traits": ["general", "skill"],
+    "prerequisites": [
+      "Trained in a martial weapon"
+    ],
+    "actions": "free",
+    "trigger": "You roll initiative",
+    "effect": "You Interact to draw a weapon as a free action when you roll initiative. If you are trained in the weapon's critical specialization group, you gain a +1 circumstance bonus to your initiative check.",
+    "special": "If you have the Quick Draw class feature, the circumstance bonus increases to +2"
+  }
+}
