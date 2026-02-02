@@ -1,0 +1,169 @@
+{
+  "id": "backgrounds",
+  "name": "Backgrounds",
+  "tags": [],
+  "value": {
+    "ids": ["acolyte", "criminal", "sage","soldier"],
+    "entities": {
+      "acolyte": {
+        "key": "acolyte",
+        "name": "Acolyte",
+        "description": "**Ability Scores:** Intelligence, Wisdom, Charisma\n\n**Feat:** Magic Initiate (Cleric) (see **chapter 5**)\n\n**Skill Proficiencies:** **Insight** and **Religion**\n\n**Tool Proficiency:** Calligrapher’s Supplies\n\n**Equipment:** _Choose A or B:_ (A) **Calligrapher’s Supplies**, **Book** (prayers), **Holy Symbol**, **Parchment** (10 sheets), **Robe**, 8 GP; or (B) 50 GP\n\nYou devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.",
+        "categories": {},
+        "attributes": {},
+        "overrides": {
+          "backgroundName": {
+            "value": "Acolyte"
+          },
+          "abilities": {
+            "value": "Int/Wis/Cha"
+          },
+          "skillProficiencies1": {
+            "value": "Insight"
+          },
+          "skillProficiencies2": {
+            "value": "Religion"
+          },
+          "toolProficiency": {
+            "value": "Calligrapher"
+          }
+        },
+        "tags": [],
+        "order": [
+          "overrides|origins:background:backgroundName",
+          "overrides|origins:background:abilities",
+          "overrides|origins:background:skillProficiencies1",
+          "overrides|origins:background:skillProficiencies2",
+          "overrides|origins:background:toolProficiency",
+          "required-extensions|buildIn:toolList:calligraphersSupplies",
+          "required-extensions|buildIn:feats:magicInitiate"
+        ]
+      },
+      "criminal": {
+        "key": "criminal",
+        "name": "Criminal",
+        "description": "**Ability Scores:** Dexterity, Constitution, Intelligence\n\n**Feat:** Alert (see **chapter 5**)\n\n**Skill Proficiencies:** **Sleight of Hand** and **Stealth**\n\n**Tool Proficiency:** Thieves’ Tools\n\n**Equipment:** _Choose A or B:_ (A) 2 **Daggers**, **Thieves’ Tools**, **Crowbar**, 2 **Pouches**, **Traveler’s Clothes**, 16 GP; or (B) 50 GP\n\nYou eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves’ guild and more fearsome lawbreakers.",
+        "categories": {},
+        "attributes": {},
+        "overrides": {
+          "backgroundName": {
+            "value": "Criminal"
+          },
+          "abilities": {
+            "value": "Dex/Con/Int"
+          },
+          "skillProficiencies1": {
+            "value": "Sleight of Hand"
+          },
+          "skillProficiencies2": {
+            "value": "Stealth"
+          },
+          "toolProficiency": {
+            "value": "Thieves’ Tools"
+          },
+          "sleightOfHand": {
+            "value": [true, false]
+          },
+          "stealth": {
+            "value": [true, false]
+          }
+        },
+        "tags": [],
+        "order": [
+          "overrides|origins:background:backgroundName",
+          "overrides|origins:background:abilities",
+          "overrides|origins:background:skillProficiencies1",
+          "overrides|origins:background:skillProficiencies2",
+          "overrides|origins:background:toolProficiency",
+          "overrides|skills:dexSkills:sleightOfHand",
+          "overrides|skills:dexSkills:stealth",
+          "required-extensions|buildIn:toolList:thievesTools",
+          "required-extensions|buildIn:feats:alert"
+        ]
+      },
+      "sage": {
+        "key": "sage",
+        "name": "Sage",
+        "description": "**Ability Scores:** Dexterity, Constitution, Intelligence\n\n**Feat:** Alert (see **chapter 5**)\n\n**Skill Proficiencies:** **Sleight of Hand** and **Stealth**\n\n**Tool Proficiency:** Thieves’ Tools\n\n**Equipment:** _Choose A or B:_ (A) 2 **Daggers**, **Thieves’ Tools**, **Crowbar**, 2 **Pouches**, **Traveler’s Clothes**, 16 GP; or (B) 50 GP\n\nYou eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves’ guild and more fearsome lawbreakers.",
+        "categories": {},
+        "attributes": {},
+        "overrides": {
+          "backgroundName": {
+            "value": "Sage"
+          },
+          "abilities": {
+            "value": "Con/Int/Wis"
+          },
+          "skillProficiencies1": {
+            "value": "Arcana"
+          },
+          "skillProficiencies2": {
+            "value": "History"
+          },
+          "toolProficiency": {
+            "value": "Calligrapher"
+          },
+          "arcana": {
+            "value": [true, false]
+          },
+          "history": {
+            "value": [true, false]
+          }
+        },
+        "tags": [],
+        "order": [
+          "overrides|origins:background:backgroundName",
+          "overrides|origins:background:abilities",
+          "overrides|origins:background:skillProficiencies1",
+          "overrides|origins:background:skillProficiencies2",
+          "overrides|origins:background:toolProficiency",
+          "overrides|skills:intSkills:arcana",
+          "overrides|skills:intSkills:history",
+          "required-extensions|buildIn:feats:magicInitiate",
+          "required-extensions|buildIn:toolList:calligraphersSupplies"
+        ]
+      },
+      "soldier": {
+        "key": "soldier",
+        "name": "Soldier",
+        "description": "**能力值：** 力量、敏捷、體質\n\n**專長：** 野蠻攻擊者（見**第5章**）\n\n**技能熟練：** **運動**和**威嚇**\n\n**工具熟練：** _選擇一種遊戲組_（見**第6章**）\n\n**裝備：** _選擇A或B：_ (A) **長矛**、**短弓**、20支**箭**、遊戲組（與上述相同）、**治療師套件**、**箭袋**、**旅行者服裝**、14金幣；或 (B) 50金幣\n\n你一成年就開始接受戰爭訓練，對拿起武器之前的生活幾乎沒有記憶。戰鬥已經融入你的血液。有時你會不自覺地反射性地執行你最初學習的基本戰鬥練習。最終，你在戰場上運用了這些訓練，通過打仗來保衛王國。\n\n你在街頭長大，周圍是同樣不幸的棄兒，其中一些是朋友，一些是對手。你睡在能找到的任何地方，為食物做零工。有時，當飢餓變得難以忍受時，你不得不偷竊。儘管如此，你從未失去自尊，也從未放棄希望。命運還沒有結束對你的安排。",
+        "categories": {},
+        "attributes": {},
+        "overrides": {
+          "backgroundName": {
+            "value": "Soldier"
+          },
+          "abilities": {
+            "value": "Str/Dex/Con"
+          },
+          "skillProficiencies1": {
+            "value": "Athletics"
+          },
+          "skillProficiencies2": {
+            "value": "Intimidation"
+          },
+          "toolProficiency": {
+            "value": "Gaming Set"
+          },
+          "athletics": {
+            "value": [true, false]
+          },
+          "intimidation": {
+            "value": [true, false]
+          }
+        },
+        "tags": [],
+        "order": [
+          "overrides|origins:background:backgroundName",
+          "overrides|origins:background:abilities",
+          "overrides|origins:background:skillProficiencies1",
+          "overrides|origins:background:skillProficiencies2",
+          "overrides|origins:background:toolProficiency",
+          "overrides|skills:strSkills:athletics",
+          "overrides|skills:chaSkills:intimidation",
+          "required-extensions|buildIn:feats:savageAttacker"
+        ]
+      }
+    }
+  }
+}

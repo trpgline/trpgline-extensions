@@ -1,0 +1,793 @@
+{
+  "id": "toolList",
+  "name": "Tool List",
+  "tags": ["Tools"],
+  "value": {
+    "ids": [
+      "alchemistsSupplies",
+      "brewersSupplies",
+      "calligraphersSupplies",
+      "carpentersTools",
+      "cartographersTools",
+      "cobblersTools",
+      "cooksUtensils",
+      "glassblowersTools",
+      "jewelersTools",
+      "leatherworkersTools",
+      "masonsTools",
+      "paintersSupplies",
+      "pottersTools",
+      "smithsTools",
+      "tinkersTools",
+      "weaversTools",
+      "woodcarversTools",
+      "disguiseKit",
+      "forgeryKit",
+      "herbalismKit",
+      "navigatorsTools",
+      "poisonersKit",
+      "thievesTools"
+    ],
+    "entities": {
+      "alchemistsSupplies": {
+        "key": "alchemistsSupplies",
+        "name": "Alchemist’s supplies",
+        "description": "This extension includes:\n - Alchemist’s supplies tool profession skill\n- Alchemist’s supplies item",
+        "categories": {},
+        "attributes": {
+          "alchemistsSuppliesItem": {
+            "name": "Alchemist’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 8 pound\n\n**Cost**: 50 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "alchemistsSuppliesTool": {
+            "name": "Alchemist’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:alchemistsSuppliesItem",
+          "attributes|skills:otherSkills:alchemistsSuppliesTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "brewersSupplies": {
+        "key": "brewersSupplies",
+        "name": "Brewer’s supplies",
+        "description": "This extension includes:\n - Brewer’s supplies tool profession skill\n- Brewer’s supplies item",
+        "categories": {},
+        "attributes": {
+          "brewersSuppliesItem": {
+            "name": "Brewer’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 9 pound\n\n**Cost**: 20 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "brewersSuppliesTool": {
+            "name": "Brewer’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:brewersSuppliesItem",
+          "attributes|skills:otherSkills:brewersSuppliesTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "calligraphersSupplies": {
+        "key": "calligraphersSupplies",
+        "name": "Calligrapher's supplies",
+        "description": "This extension includes:\n - Calligrapher's supplies tool profession skill\n- Calligrapher's supplies item",
+        "categories": {},
+        "attributes": {
+          "calligraphersSuppliesItem": {
+            "name": "Calligrapher's supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 10 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "calligraphersSuppliesTool": {
+            "name": "Calligrapher's supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:calligraphersSuppliesItem",
+          "attributes|skills:otherSkills:calligraphersSuppliesTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "carpentersTools": {
+        "key": "carpentersTools",
+        "name": "Carpenter’s tools",
+        "description": "This extension includes:\n - Carpenter’s tools tool profession skill\n- Carpenter’s tools item",
+        "categories": {},
+        "attributes": {
+          "carpentersToolsItem": {
+            "name": "Carpenter’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 6 pound\n\n**Cost**: 8 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "carpentersToolsTool": {
+            "name": "Carpenter’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:carpentersToolsItem",
+          "attributes|skills:otherSkills:carpentersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "cartographersTools": {
+        "key": "cartographersTools",
+        "name": "Cartographer’s tools",
+        "description": "This extension includes:\n - Cartographer’s tools tool profession skill\n- Cartographer’s tools item",
+        "categories": {},
+        "attributes": {
+          "cartographersToolsItem": {
+            "name": "Cartographer’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 6 pound\n\n**Cost**: 15 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cartographersToolsTool": {
+            "name": "Cartographer’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cartographersToolsItem",
+          "attributes|skills:otherSkills:cartographersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "cobblersTools": {
+        "key": "cobblersTools",
+        "name": "Cobbler’s tools",
+        "description": "This extension includes:\n - Cobbler’s tools tool profession skill\n- Cobbler’s tools item",
+        "categories": {},
+        "attributes": {
+          "cobblersToolsItem": {
+            "name": "Cobbler’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 5 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cobblersToolsTool": {
+            "name": "Cobbler’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cobblersToolsItem",
+          "attributes|skills:otherSkills:cobblersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "cooksUtensils": {
+        "key": "cooksUtensils",
+        "name": "Cook’s utensils",
+        "description": "This extension includes:\n - Cook’s utensils tool profession skill\n- Cook’s utensils item",
+        "categories": {},
+        "attributes": {
+          "cooksUtensilsItem": {
+            "name": "Cook’s utensils",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 8 pound\n\n**Cost**: 1 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cooksUtensilsTool": {
+            "name": "Cook’s utensils",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cooksUtensilsItem",
+          "attributes|skills:otherSkills:cooksUtensilsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "glassblowersTools": {
+        "key": "glassblowersTools",
+        "name": "Glassblower’s tools",
+        "description": "This extension includes:\n - Glassblower’s tools tool profession skill\n- Glassblower’s tools item",
+        "categories": {},
+        "attributes": {
+          "glassblowersToolsItem": {
+            "name": "Glassblower’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 30 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "glassblowersToolsTool": {
+            "name": "Glassblower’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:glassblowersToolsItem",
+          "attributes|skills:otherSkills:glassblowersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "jewelersTools": {
+        "key": "jewelersTools",
+        "name": "Jeweler’s tools",
+        "description": "This extension includes:\n - Jeweler’s tools tool profession skill\n- Jeweler’s tools item",
+        "categories": {},
+        "attributes": {
+          "jewelersToolsItem": {
+            "name": "Jeweler’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 2 pound\n\n**Cost**: 25 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "jewelersToolsTool": {
+            "name": "Jeweler’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:jewelersToolsItem",
+          "attributes|skills:otherSkills:jewelersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "leatherworkersTools": {
+        "key": "leatherworkersTools",
+        "name": "Leatherworker’s tools",
+        "description": "This extension includes:\n - Leatherworker’s tools tool profession skill\n- Leatherworker’s tools item",
+        "categories": {},
+        "attributes": {
+          "leatherworkersToolsItem": {
+            "name": "Leatherworker’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 5 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "leatherworkersToolsTool": {
+            "name": "Leatherworker’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:leatherworkersToolsItem",
+          "attributes|skills:otherSkills:leatherworkersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "masonsTools": {
+        "key": "masonsTools",
+        "name": "Mason’s tools",
+        "description": "This extension includes:\n - Mason’s tools tool profession skill\n- Mason’s tools item",
+        "categories": {},
+        "attributes": {
+          "masonsToolsItem": {
+            "name": "Mason’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 8 pound\n\n**Cost**: 10 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "masonsToolsTool": {
+            "name": "Mason’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:masonsToolsItem",
+          "attributes|skills:otherSkills:masonsToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "paintersSupplies": {
+        "key": "paintersSupplies",
+        "name": "Painter’s supplies",
+        "description": "This extension includes:\n - Painter’s supplies tool profession skill\n- Painter’s supplies item",
+        "categories": {},
+        "attributes": {
+          "paintersSuppliesItem": {
+            "name": "Painter’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 10 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "paintersSuppliesTool": {
+            "name": "Painter’s supplies",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:paintersSuppliesItem",
+          "attributes|skills:otherSkills:paintersSuppliesTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "pottersTools": {
+        "key": "pottersTools",
+        "name": "Potter’s tools",
+        "description": "This extension includes:\n - Potter’s tools tool profession skill\n- Potter’s tools item",
+        "categories": {},
+        "attributes": {
+          "pottersToolsItem": {
+            "name": "Potter’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 3 pound\n\n**Cost**: 10 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "pottersToolsTool": {
+            "name": "Potter’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:pottersToolsItem",
+          "attributes|skills:otherSkills:pottersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "smithsTools": {
+        "key": "smithsTools",
+        "name": "Smith’s tools",
+        "description": "This extension includes:\n - Smith’s tools tool profession skill\n- Smith’s tools item",
+        "categories": {},
+        "attributes": {
+          "smithsToolsItem": {
+            "name": "Smith’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 8 pound\n\n**Cost**: 20 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "smithsToolsTool": {
+            "name": "Smith’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:smithsToolsItem",
+          "attributes|skills:otherSkills:smithsToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "tinkersTools": {
+        "key": "tinkersTools",
+        "name": "Tinker’s tools",
+        "description": "This extension includes:\n - Tinker’s tools tool profession skill\n- Tinker’s tools item",
+        "categories": {},
+        "attributes": {
+          "tinkersToolsItem": {
+            "name": "Tinker’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 10 pound\n\n**Cost**: 50 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "tinkersToolsTool": {
+            "name": "Tinker’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:tinkersToolsItem",
+          "attributes|skills:otherSkills:tinkersToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "weaversTools": {
+        "key": "weaversTools",
+        "name": "Weaver’s tools",
+        "description": "This extension includes:\n - Weaver’s tools tool profession skill\n- Weaver’s tools item",
+        "categories": {},
+        "attributes": {
+          "weaversToolsItem": {
+            "name": "Weaver’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 1 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "weaversToolsTool": {
+            "name": "Weaver’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:weaversToolsItem",
+          "attributes|skills:otherSkills:weaversToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "woodcarversTools": {
+        "key": "woodcarversTools",
+        "name": "Woodcarver’s tools",
+        "description": "This extension includes:\n - Woodcarver’s tools tool profession skill\n- Woodcarver’s tools item",
+        "categories": {},
+        "attributes": {
+          "woodcarversToolsItem": {
+            "name": "Woodcarver’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 1 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "woodcarversToolsTool": {
+            "name": "Woodcarver’s tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:woodcarversToolsItem",
+          "attributes|skills:otherSkills:woodcarversToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "disguiseKit": {
+        "key": "disguiseKit",
+        "name": "Disguise kit",
+        "description": "This extension includes:\n - Disguise kit tool profession skill\n- Disguise kit item",
+        "categories": {},
+        "attributes": {
+          "disguiseKitItem": {
+            "name": "Disguise kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 3 pound\n\n**Cost**: 25 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "disguiseKitTool": {
+            "name": "Disguise kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:disguiseKitItem",
+          "attributes|skills:otherSkills:disguiseKitTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "forgeryKit": {
+        "key": "forgeryKit",
+        "name": "Forgery kit",
+        "description": "This extension includes:\n - Forgery kit tool profession skill\n- Forgery kit item",
+        "categories": {},
+        "attributes": {
+          "forgeryKitItem": {
+            "name": "Forgery kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 5 pound\n\n**Cost**: 15 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "forgeryKitTool": {
+            "name": "Forgery kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:forgeryKitItem",
+          "attributes|skills:otherSkills:forgeryKitTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "herbalismKit": {
+        "key": "herbalismKit",
+        "name": "Herbalism kit",
+        "description": "This extension includes:\n - Herbalism kit tool profession skill\n- Herbalism kit item",
+        "categories": {},
+        "attributes": {
+          "herbalismKitItem": {
+            "name": "Herbalism kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 3 pound\n\n**Cost**: 5 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "herbalismKitTool": {
+            "name": "Herbalism kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:herbalismKitItem",
+          "attributes|skills:otherSkills:herbalismKitTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "navigatorsTools": {
+        "key": "navigatorsTools",
+        "name": "Navigator's tools",
+        "description": "This extension includes:\n - Navigator's tools tool profession skill\n- Navigator's tools item",
+        "categories": {},
+        "attributes": {
+          "navigatorsToolsItem": {
+            "name": "Navigator's tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 2 pound\n\n**Cost**: 25 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "navigatorsToolsTool": {
+            "name": "Navigator's tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:navigatorsToolsItem",
+          "attributes|skills:otherSkills:navigatorsToolsTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "poisonersKit": {
+        "key": "poisonersKit",
+        "name": "Poisoner's kit",
+        "description": "This extension includes:\n - Poisoner's kit tool profession skill\n- Poisoner's kit item",
+        "categories": {},
+        "attributes": {
+          "poisonersKitItem": {
+            "name": "Poisoner's kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 2 pound\n\n**Cost**: 50 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "poisonersKitTool": {
+            "name": "Poisoner's kit",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:poisonersKitItem",
+          "attributes|skills:otherSkills:poisonersKitTool"
+        ],
+        "tags": ["Tools"]
+      },
+      "thievesTools": {
+        "key": "thievesTools",
+        "name": "Thieves' tools",
+        "description": "This extension includes:\n - Thieves' tools tool profession skill\n- Thieves' tools item",
+        "categories": {},
+        "attributes": {
+          "thievesToolsItem": {
+            "name": "Thieves' tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**Weigh**: 1 pound\n\n**Cost**: 25 gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "thievesToolsTool": {
+            "name": "Thieves' tools",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:thievesToolsItem",
+          "attributes|skills:otherSkills:thievesToolsTool"
+        ],
+        "tags": ["Tools"]
+      }
+    }
+  }
+}
