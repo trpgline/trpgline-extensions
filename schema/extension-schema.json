@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TRPG Character Extension",
+  "description": "Schema for TRPG character extensions",
+  "type": "object",
+  "required": ["name", "version", "system", "description", "author", "type", "data"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the character extension",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version number",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "system": {
+      "type": "string",
+      "description": "The TRPG system this extension is for",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "description": "A clear description of what this extension provides",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name or username",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "description": "The category of this extension",
+      "enum": [
+        "trait",
+        "ability",
+        "feature",
+        "background",
+        "class",
+        "race",
+        "skill",
+        "equipment",
+        "spell",
+        "feat",
+        "other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Optional tags for categorization",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "string",
+      "description": "License information for this extension"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source material or rulebook reference"
+    },
+    "prerequisites": {
+      "type": "object",
+      "description": "Requirements for using this extension",
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "attributes": {
+          "type": "object"
+        },
+        "extensions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "description": "System-specific extension data"
+    }
+  }
+}

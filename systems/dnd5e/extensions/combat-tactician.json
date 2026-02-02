@@ -1,0 +1,29 @@
+{
+  "name": "Combat Tactician",
+  "version": "1.0.0",
+  "system": "dnd5e",
+  "description": "A feat that grants bonuses to tactical combat positioning and ally coordination",
+  "author": "TRPG Line Community",
+  "type": "feat",
+  "tags": ["combat", "tactical", "support"],
+  "prerequisites": {
+    "level": 4,
+    "attributes": {
+      "intelligence": 13
+    }
+  },
+  "data": {
+    "benefits": {
+      "description": "You are skilled at coordinating allies in combat and taking advantage of tactical positioning.",
+      "mechanics": [
+        "As a bonus action, you can grant one ally within 30 feet advantage on their next attack roll",
+        "When you take the Help action, you can affect allies within 10 feet instead of 5 feet",
+        "You gain proficiency in one of the following skills: Insight, Perception, or Investigation"
+      ],
+      "uses": {
+        "type": "proficiency-bonus",
+        "period": "long-rest"
+      }
+    }
+  }
+}
