@@ -1,0 +1,3015 @@
+{
+  "id": "Item",
+  "name": "物品",
+  "tags": ["冒險裝備", "護甲", "冒險套裝"],
+  "value": {
+    "ids": [
+      "Acid",
+      "Alchemist-s_Fire",
+      "Antitoxin",
+      "Backpack",
+      "Ball_Bearings",
+      "Barrel",
+      "Basket",
+      "Bedroll",
+      "Bell",
+      "Blanket",
+      "Block_and_Tackle",
+      "Book",
+      "Glass_Bottle",
+      "Bucket",
+      "Burglar-s_Pack",
+      "Caltrops",
+      "Candle",
+      "Crossbow_Bolt_Case",
+      "Map_or_Scroll_Case",
+      "Chain",
+      "Chest",
+      "Climber-s_Kit",
+      "Fine_Clothes",
+      "Traveler-s_Clothes",
+      "Component_Pouch",
+      "Costume_Clothes",
+      "Crowbar",
+      "Diplomat-s_Pack",
+      "Dungeoneer-s_Pack",
+      "Entertainer-s_Pack",
+      "Explorer-s_Pack",
+      "Tankard",
+      "Grappling_Hook",
+      "Healer-s_Kit",
+      "Holy_Water",
+      "Hunting_Trap",
+      "Ink",
+      "Ink_Pen",
+      "Pitcher",
+      "Ladder",
+      "Lamp",
+      "Bullseye_Lantern",
+      "Hooded_Lantern",
+      "Lock",
+      "Magnifying_Glass",
+      "Manacles",
+      "Map",
+      "Steel_Mirror",
+      "Oil",
+      "Paper",
+      "Parchment",
+      "Perfume",
+      "Basic_Poison",
+      "Pole",
+      "Iron_Pot",
+      "Priest-s_Pack",
+      "Quiver",
+      "Portable_Ram",
+      "Rations",
+      "Robes",
+      "Hempen_Rope",
+      "Sack",
+      "Scholar-s_Pack",
+      "Shovel",
+      "Signal_Whistle",
+      "Iron_Spikes",
+      "Spyglass",
+      "Silk_Rope",
+      "Two-Person_Tent",
+      "Tinderbox",
+      "Torch",
+      "Vial",
+      "Waterskin",
+      "Padded_Armor",
+      "Leather_Armor",
+      "Studded_Leather_Armor",
+      "Hide_Armor",
+      "Chain_Shirt",
+      "Scale_Mail",
+      "Breastplate",
+      "Half_Plate_Armor",
+      "Ring_Mail",
+      "Chain_Mail",
+      "Splint_Armor",
+      "Plate_Armor",
+      "Shield",
+      "BurglarsPack", "DiplomatsPack","DungeoneersPack", "EntertainersPack", "ExplorersPack", "PriestsPack", "ScholarsPack"
+    ],
+    "entities": {
+      "DiplomatsPack": {
+        "key": "DiplomatsPack",
+        "name": "大使套裝",
+        "description": "* 大使套裝包含以下物品：箱子、高級服裝、墨水、5 支墨水筆、油燈、2 張地圖或捲軸匣、4 瓶油、5 張紙、5 張羊皮紙、香水、打火匣。\n  此處暫定為一張地圖與一張捲軸匣。",
+        "categories": {},
+        "attributes": {
+          "Chest": {
+            "name": "箱子",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 箱子的容量約 12 立方呎。",
+            "rolls": []
+          },
+          "FineClothes": {
+            "name": "高級服裝",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 高級服裝由昂貴的織物製成，並裝飾有精心製作的細節。有些活動和地點只允許穿著這些衣物的人進入。",
+            "rolls": []
+          },
+          "Ink": {
+            "name": "墨水",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 墨水裝在一個 1 盎司的瓶子裡，可以寫出大約 500 頁的內容。",
+            "rolls": []
+          },
+          "InkPen": {
+            "name": "墨水筆",
+            "type": "text",
+            "value": "5",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 使用墨水筆和墨水可以用來寫字或畫圖。",
+            "rolls": []
+          },
+          "Lamp": {
+            "name": "油燈",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 油燈使用油作為燃料，點亮時提供 15 英尺半徑的明亮光照，以及在此之外 30 英尺半徑的微光光照。",
+            "rolls": []
+          },
+          "MapOrScrollCase": {
+            "name": "地圖或卷軸筒",
+            "type": "text",
+            "value": "2",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 地圖或卷軸筒可容納最多 10 張紙張或 5 張羊皮紙。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "4",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Paper": {
+            "name": "紙",
+            "type": "text",
+            "value": "5",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 一張紙可以容納大約 250 個手寫單字。",
+            "rolls": []
+          },
+          "Parchment": {
+            "name": "羊皮紙",
+            "type": "text",
+            "value": "5",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 一張羊皮紙可以容納大約 250 個手寫單字。",
+            "rolls": []
+          },
+          "Perfume": {
+            "name": "香水",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 香水裝在一個 4 盎司的小瓶子中。在將香水塗抹到自己身上後的 1 小時內，你為影響一名態度為冷漠，且在你5尺內的類人生物而進行的魅力（說服）檢定具有優勢。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Chest",
+          "attributes|items:itemList:FineClothes",
+          "attributes|items:itemList:Ink",
+          "attributes|items:itemList:InkPen",
+          "attributes|items:itemList:Lamp",
+          "attributes|items:itemList:MapOrScrollCase",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Paper",
+          "attributes|items:itemList:Parchment",
+          "attributes|items:itemList:Perfume",
+          "attributes|items:itemList:Tinderbox"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "DungeoneersPack": {
+        "key": "DungeoneersPack",
+        "name": "地城套組",
+        "description": "* 地城套裝包含以下物品：背包、鐵蒺藜、撬棍、2 瓶油、10 日份的口糧、繩索、打火匣、10 根火把，水袋。",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": " 背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Crowbar": {
+            "name": "撬棍",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 只要能被當作槓桿應用，你以撬棍進行的力量檢定就具有優勢。",
+            "rolls": []
+          },
+          "Caltrops": {
+            "name": "鐵蒺藜",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 以一個 操作［動作］Utilize，你將鐵蒺藜從袋子中撒出，覆蓋你周圍 5 尺內的一處 5 尺見方的區域。當生物在回合中第一次進入該區域時，生物必須通過一次 DC 15 的敏捷豁免，否則會受到 1 點穿刺傷害，且速度被降至 0，直到其下一回合開始。回收鐵蒺藜需要 10 分鐘。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "2",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Rations": {
+            "name": "口糧",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 口糧包括適合旅行的食物，如肉乾、果乾、硬餅乾和堅果。有關不進食帶來的風險，請參閱規則術語表中的「營養不良」部分。",
+            "rolls": []
+          },
+          "Rope": {
+            "name": "繩索",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 作為一個 操作［動作］Utilize，你需要透過一次 DC 10 的敏捷（巧手）檢定將繩索打結。繩索可以透過一次 DC 20 的力量（運動）檢定掙斷。\n* 只有當一個非自願的生物處於「擒抱」、「失能」或「被束縛」狀態時，你才可以用繩索將其束縛。 如果生物的雙腿被捆住，則該生物在掙脫前處於束縛狀態。\n* 掙脫繩索需要生物用動作成功通過一次 DC 15 的敏捷（體操）檢定。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Torch": {
+            "name": "火把",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 火把可燃燒 1 小時，提供 20 英尺半徑的明亮光照，以及在此之外 20 英尺半徑的微光光照。當你執行攻擊動作時，你可以將火把當作簡易近戰武器來攻擊。若命中， 目標會受到 1 點火焰傷害。",
+            "rolls": []
+          },
+          "Waterskin": {
+            "name": "水袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 水袋的容量約 4 品脫。如果你沒能飲用足量的水，可能會導致脫水（詳見規則術語表）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Crowbar",
+          "attributes|items:itemList:Caltrops",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Rations",
+          "attributes|items:itemList:Rope",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Torch",
+          "attributes|items:itemList:Waterskin"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "EntertainersPack": {
+        "key": "EntertainersPack",
+        "name": "藝人套組",
+        "description": "* 藝人套裝包含以下物品：背包、睡袋、鈴鐺、牛眼提燈、3 套戲服、鏡子、8 瓶油、9 日份的口糧、打火匣、水袋。",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": "背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "8",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Rations": {
+            "name": "口糧",
+            "type": "text",
+            "value": "9",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 口糧包括適合旅行的食物，如肉乾、果乾、硬餅乾和堅果。有關不進食帶來的風險，請參閱規則術語表中的「營養不良」部分。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Waterskin": {
+            "name": "水袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 水袋的容量約 4 品脫。如果你沒能飲用足量的水，可能會導致脫水（詳見規則術語表）。",
+            "rolls": []
+          },
+          "Bell": {
+            "name": "鈴鐺",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 當你使用一個操作［動作］Utilize敲響鈴鐺時，其聲音可以傳達到 60 尺外。",
+            "rolls": []
+          },
+          "Bedroll": {
+            "name": "睡袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 睡袋適合一名小型或中型生物使用。當你在睡袋中時，對抗極寒環境的豁免檢定自動成功（參見地下城主指南）。",
+            "rolls": []
+          },
+          "BullseyeLantern": {
+            "name": "牛眼提燈",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 牛眼提燈使用油作為燃料，點亮時提供 60 尺的錐狀的明亮光照，以及在此之外 60 尺的微光光照。",
+            "rolls": []
+          },
+          "CostumeClothes": {
+            "name": "戲服",
+            "type": "text",
+            "value": "3",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 穿上戲服時，你在扮演戲服所代表的角色或群體時的所有屬性檢定中具有優勢。",
+            "rolls": []
+          },
+          "Mirror": {
+            "name": "鏡子",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 可手持的鋼製鏡子不僅適用於個人化妝，還可以用來窺視角落和反射光線作為信號。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Rations",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Waterskin",
+          "attributes|items:itemList:Bell",
+          "attributes|items:itemList:Bedroll",
+          "attributes|items:itemList:BullseyeLantern",
+          "attributes|items:itemList:CostumeClothes",
+          "attributes|items:itemList:Mirror"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "ExplorersPack": {
+        "key": "ExplorersPack",
+        "name": "探索者套裝",
+        "description": "* 探險家套裝包含以下物品：背包、睡袋、2 瓶油、10 天的口糧、繩索、打火匣、10 根火把、水袋。",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": "背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "2",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Rations": {
+            "name": "口糧",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 口糧包括適合旅行的食物，如肉乾、果乾、硬餅乾和堅果。有關不進食帶來的風險，請參閱規則術語表中的「營養不良」部分。",
+            "rolls": []
+          },
+          "Rope": {
+            "name": "繩索",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 作為一個 操作［動作］Utilize，你需要透過一次 DC 10 的敏捷（巧手）檢定將繩索打結。繩索可以透過一次 DC 20 的力量（運動）檢定掙斷。\n* 只有當一個非自願的生物處於「擒抱」、「失能」或「被束縛」狀態時，你才可以用繩索將其束縛。 如果生物的雙腿被捆住，則該生物在掙脫前處於束縛狀態。\n* 掙脫繩索需要生物用動作成功通過一次 DC 15 的敏捷（體操）檢定。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Torch": {
+            "name": "火把",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 火把可燃燒 1 小時，提供 20 英尺半徑的明亮光照，以及在此之外 20 英尺半徑的微光光照。當你執行攻擊動作時，你可以將火把當作簡易近戰武器來攻擊。若命中， 目標會受到 1 點火焰傷害。",
+            "rolls": []
+          },
+          "Bedroll": {
+            "name": "睡袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 睡袋適合一名小型或中型生物使用。當你在睡袋中時，對抗極寒環境的豁免檢定自動成功（參見地下城主指南）。",
+            "rolls": []
+          },
+          "Waterskin": {
+            "name": "水袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 水袋的容量約 4 品脫。如果你沒能飲用足量的水，可能會導致脫水（詳見規則術語表）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Rations",
+          "attributes|items:itemList:Rope",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Torch",
+          "attributes|items:itemList:Bedroll",
+          "attributes|items:itemList:Waterskin"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "BurglarsPack": {
+        "key": "BurglarsPack",
+        "name": "竊賊套組",
+        "description": "* 竊賊套組包含以下物品：背包、滾珠、鈴鐺、10 根蠟燭、撬棍、附蓋提燈、7 瓶油、5 日份口糧、繩索、打火匣、水袋。",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": "背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "7",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Rations": {
+            "name": "口糧",
+            "type": "text",
+            "value": "5",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 口糧包括適合旅行的食物，如肉乾、果乾、硬餅乾和堅果。有關不進食帶來的風險，請參閱規則術語表中的「營養不良」部分。",
+            "rolls": []
+          },
+          "Rope": {
+            "name": "繩索",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 作為一個 操作［動作］Utilize，你需要透過一次 DC 10 的敏捷（巧手）檢定將繩索打結。繩索可以透過一次 DC 20 的力量（運動）檢定掙斷。\n* 只有當一個非自願的生物處於「擒抱」、「失能」或「被束縛」狀態時，你才可以用繩索將其束縛。 如果生物的雙腿被捆住，則該生物在掙脫前處於束縛狀態。\n* 掙脫繩索需要生物用動作成功通過一次 DC 15 的敏捷（體操）檢定。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Waterskin": {
+            "name": "水袋",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 水袋的容量約 4 品脫。如果你沒能飲用足量的水，可能會導致脫水（詳見規則術語表）。",
+            "rolls": []
+          },
+          "BallBearing": {
+            "name": " 滾珠",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 以一個 操作［動作］Utilize，你將滾珠從袋子中倒出，它們會擴散到你周圍 10 尺內的一處 10 尺見方的區域內。當生物在回合中第一次進入該區域時，該生物必須通過一次DC 10 的敏捷豁免檢定，否則將陷入伏地狀態。回收滾珠需要 10 分鐘。",
+            "rolls": []
+          },
+          "Bell": {
+            "name": "鈴鐺",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 當你使用一個操作［動作］Utilize敲響鈴鐺時，其聲音可以傳達到 60 尺外。",
+            "rolls": []
+          },
+          "Candle": {
+            "name": "蠟燭",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 點燃的蠟燭能在 1 小時內提供 5 英尺半徑的明亮光照，以及在此之外 5 英尺半徑的微光光照。",
+            "rolls": []
+          },
+          "HoodedLantern": {
+            "name": "附蓋提燈",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 附蓋提燈使用油作為燃料，點亮時提供 30 英尺半徑的明亮光照，以及在此之外 30 英尺半徑的微光光照。你可以用一個附贈動作降下或提起燈蓋，被罩住的火光減少為 5 尺半徑的微光照。",
+            "rolls": []
+          },
+          "Crowbar": {
+            "name": "撬棍",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 只要能被當作槓桿應用，你以撬棍進行的力量檢定就具有優勢。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Rations",
+          "attributes|items:itemList:Rope",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Waterskin",
+          "attributes|items:itemList:BallBearing",
+          "attributes|items:itemList:Bell",
+          "attributes|items:itemList:Candle",
+          "attributes|items:itemList:HoodedLantern",
+          "attributes|items:itemList:Crowbar"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "PriestsPack": {
+        "key": "PriestsPack",
+        "name": "祭司套組",
+        "description": "* 一個祭司套組含以下物品：背包、毛毯、聖水、油燈、7 日份的口糧、長袍和打火匣。",
+        "categories": {},
+        "attributes": {
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Blanket": {
+            "name": "毛毯",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 當你用毛毯包裹自己時，對抗極寒環境的豁免檢定具有優勢（參見地下城主指南）。",
+            "rolls": []
+          },
+          "HolyWater": {
+            "name": "聖水",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 當你執行攻擊動作時，可以用投擲一瓶聖水來代替其中的一次攻擊。你選定 20 尺內能看見的一個生物為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則如果目標為邪魔或不死生物，其會受到 2d8 點光耀傷害。",
+            "rolls": []
+          },
+          "Lamp": {
+            "name": "油燈",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 油燈使用油作為燃料，點亮時提供 15 英尺半徑的明亮光照，以及在此之外 30 英尺半徑的微光光照。",
+            "rolls": []
+          },
+          "Robes": {
+            "name": "長袍",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 長袍具有職業或儀式上的意義。某些活動和地點僅允許穿著特定顏色或標誌長袍的人進入。",
+            "rolls": []
+          },
+          "Backpack": {
+            "name": "背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Rations": {
+            "name": "口糧",
+            "type": "text",
+            "value": "7",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 口糧包括適合旅行的食物，如肉乾、果乾、硬餅乾和堅果。有關不進食帶來的風險，請參閱規則術語表中的「營養不良」部分。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Blanket",
+          "attributes|items:itemList:HolyWater",
+          "attributes|items:itemList:Lamp",
+          "attributes|items:itemList:Robes",
+          "attributes|items:itemList:Rations"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "ScholarsPack": {
+        "key": "ScholarsPack",
+        "name": "學者套組",
+        "description": "* 學者套裝包含以下物品：背包、書籍、墨水、墨水筆、油燈、10 瓶油、10 張羊皮紙和打火匣。",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": "背包",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 背包的容量約 1 立方尺，可以承重 30 磅的東西。背包也可以當作鞍袋。",
+            "rolls": []
+          },
+          "Oil": {
+            "name": "油",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "你可以將油潑灑在生物、物體或空間上，或用作燃料，具體如下。\n\n潑灑生物或物體。 \n\n* 當你執行攻擊動作時，你可以將其中一次攻擊換成投擲油瓶。你選定 15 尺內能看見的一個生物或物件作為目標。目標必須通過一次敏捷豁免（DC = 8 + 你的敏捷調整值 + 熟練加值），否則將被油覆蓋。如果目標在油乾掉之前（1 分鐘後）受到火焰傷害，那麼目標將因燃油而額外受到 5 點火焰傷害。\n\n潑灑空間。\n\n*  你可以執行 操作［動作］Utilize，將油瓶中的油倒在地面上，覆蓋你 5 尺範圍內的一處 5 尺平方區域。油點燃後會持續燃燒，直至點燃 2 輪後的回合結束（或 12 秒），並對任何進入該區域或在其內結束回合的生物造成 5 點火焰傷害。生物每回合只會承受一次這種傷害。\n\n燃料。 \n\n* 油可以用作油燈和提燈的燃料。一瓶油點燃後可以在油燈或提燈中燃燒 6 小時。燃燒時間不需要連續；你可以熄滅燃油（作為一個操作［動作］Utilize），並在之後重新點燃，直至累計燃燒 6 個小時後耗盡。",
+            "rolls": []
+          },
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 打火匣是一個小容器，裡面裝有用於點火的燧石、打火鋼和引火材料（通常是浸過輕油的乾布）。你能以附贈動作用它來點燃蠟燭、油燈、提燈、火把，以及任何帶有燃料的東西，且燃料必須與空氣接觸。點燃其他火焰需要 1 分鐘。",
+            "rolls": []
+          },
+          "Lamp": {
+            "name": "油燈",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 油燈使用油作為燃料，點亮時提供 15 英尺半徑的明亮光照，以及在此之外 30 英尺半徑的微光光照。",
+            "rolls": []
+          },
+          "Book": {
+            "name": "書籍",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 書籍包含了紀實與虛構的文學作品。當你查閱一本主題精確相關的紀實文學作品，你在關於該主題的智力（奧秘、歷史、自然或宗教）檢定中獲得+5的加值。",
+            "rolls": []
+          },
+          "Ink": {
+            "name": "墨水",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 墨水裝在一個 1 盎司的瓶子裡，可以寫出大約 500 頁的內容。",
+            "rolls": []
+          },
+          "InkPen": {
+            "name": "墨水筆",
+            "type": "text",
+            "value": "1",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 使用墨水筆和墨水可以用來寫字或畫圖。",
+            "rolls": []
+          },
+          "Parchment": {
+            "name": "羊皮紙",
+            "type": "text",
+            "value": "10",
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 一張羊皮紙可以容納大約 250 個手寫單字。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack",
+          "attributes|items:itemList:Oil",
+          "attributes|items:itemList:Tinderbox",
+          "attributes|items:itemList:Lamp",
+          "attributes|items:itemList:Book",
+          "attributes|items:itemList:Ink",
+          "attributes|items:itemList:InkPen",
+          "attributes|items:itemList:Parchment"
+        ],
+        "tags": ["冒險套裝"]
+      },
+      "Acid": {
+        "key": "Acid",
+        "name": "強酸(Acid)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Acid": {
+            "name": "強酸",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 25 金幣\n* 重量： 1 磅\n* 當你採取攻擊動作時，你可以用投擲一瓶強酸來替代其中一次攻擊。選擇你可以看見的、在你20英尺內的一個生物或物體作為目標。目標必須成功通過一次敏捷豁免檢定（DC為8加上你的敏捷調整值和熟練加值），否則受到2d6點酸性傷害。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Acid"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Alchemist-s_Fire": {
+        "key": "Alchemist-s_Fire",
+        "name": "熾火膠(Alchemist's Fire)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Alchemist-s_Fire": {
+            "name": "熾火膠",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 50 金幣\n* 重量： 1 磅\n* 當你採取**攻擊**動作時，你可以用投擲一瓶煉金火來替代其中一次攻擊。選擇你可以看見的、在你20英尺內的一個生物或物體作為目標。目標必須成功通過一次敏捷豁免檢定（DC為8加上你的敏捷調整值和熟練加值），否則受到1d4點火焰傷害並開始**燃燒**（參見**規則詞彙表**）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Alchemist-s_Fire"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Antitoxin": {
+        "key": "Antitoxin",
+        "name": "解毒劑(Antitoxin)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Antitoxin": {
+            "name": "解毒劑",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 50 金幣\n* 重量： 1 磅\n* 作為附贈動作，你可以喝下一瓶解毒劑，在1小時內獲得對避免或結束**中毒**狀態的豁免檢定的**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Antitoxin"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Backpack": {
+        "key": "Backpack",
+        "name": "背包(Backpack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Backpack": {
+            "name": "背包",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 5 磅\n* 背包可以容納最多30磅的物品，容積為1立方英尺。它也可以作為鞍袋使用。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Backpack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Ball_Bearings": {
+        "key": "Ball_Bearings",
+        "name": "鋼珠(Ball Bearings)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Ball_Bearings": {
+            "name": "鋼珠",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 1 磅\n* 作為**使用**動作，你可以從鋼珠袋中倒出鋼珠。它們會覆蓋你10英尺內的一個10英尺見方的平坦區域。在一回合內首次進入該區域的生物必須成功通過一次DC 10的敏捷豁免檢定，否則會陷入**俯臥**狀態。需要10分鐘來收回鋼珠。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Ball_Bearings"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Barrel": {
+        "key": "Barrel",
+        "name": "木桶(Barrel)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Barrel": {
+            "name": "木桶",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 70 磅\n* 一個桶可以容納40加侖的液體或4立方英尺的乾貨。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Barrel"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Basket": {
+        "key": "Basket",
+        "name": "籃子(Basket)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Basket": {
+            "name": "籃子",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 4 銀幣\n* 重量： 2 磅\n* 一個籃子可以容納最多40磅的物品，容積為2立方英尺。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Basket"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Bedroll": {
+        "key": "Bedroll",
+        "name": "睡袋(Bedroll)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Bedroll": {
+            "name": "睡袋",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 7 磅\n* 一個睡袋可供一個小型或中型生物睡眠。當在睡袋中時，你自動成功通過對極寒的豁免檢定（見《地下城主指南》）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Bedroll"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Bell": {
+        "key": "Bell",
+        "name": "鈴鐺(Bell)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Bell": {
+            "name": "鈴鐺",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 當作為**使用**動作搖響時，鈴鐺會產生可以在60英尺外聽到的聲音。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Bell"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Blanket": {
+        "key": "Blanket",
+        "name": "毛毯(Blanket)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Blanket": {
+            "name": "毛毯",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銀幣\n* 重量： 3 磅\n* 當裹在毛毯中時，你在對抗極寒的豁免檢定上有**優勢**（見《地下城主指南》）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Blanket"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Block_and_Tackle": {
+        "key": "Block_and_Tackle",
+        "name": "滑輪組(Block and Tackle)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Block_and_Tackle": {
+            "name": "滑輪組",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 5 磅\n* 滑輪組允許你提升四倍於你通常能夠提升的重量。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Block_and_Tackle"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Book": {
+        "key": "Book",
+        "name": "書(Book)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Book": {
+            "name": "書",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 25 金幣\n* 重量： 5 磅\n* 一本書包含小說或非小說內容。如果你查閱一本準確的非小說書籍，你在關於該主題的智力（奧秘、歷史、自然或宗教）檢定上獲得+5加值。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Book"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Glass_Bottle": {
+        "key": "Glass_Bottle",
+        "name": "玻璃瓶(Glass Bottle)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Glass_Bottle": {
+            "name": "玻璃瓶",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 2 磅\n* 一個玻璃瓶可以容納最多1½品脫的液體。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Glass_Bottle"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Bucket": {
+        "key": "Bucket",
+        "name": "水桶(Bucket)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Bucket": {
+            "name": "水桶",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銅幣\n* 重量： 2 磅\n* 一個水桶可以容納最多半立方英尺的內容物。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Bucket"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Burglar-s_Pack": {
+        "key": "Burglar-s_Pack",
+        "name": "竊賊套裝(Burglar's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Burglar-s_Pack": {
+            "name": "竊賊套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 16 金幣\n* 重量： 42 磅\n* 盜賊包包含以下物品：**背包**、**鋼珠**、**鈴鐺**、10支**蠟燭**、**撬棍**、**遮罩燈**、7瓶**油**、5天的**口糧**、**繩索**、**火絨盒**和**水袋**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Burglar-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Caltrops": {
+        "key": "Caltrops",
+        "name": "鐵蒺藜(Caltrops)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Caltrops": {
+            "name": "鐵蒺藜",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 2 磅\n* 作為**使用**動作，你可以從撒菱袋中散布撒菱，覆蓋你5英尺內的一個5英尺見方區域。在一回合內首次進入該區域的生物必須成功通過一次DC 15的敏捷豁免檢定，否則受到1點穿刺傷害，並且其速度降為0直到其下一回合開始。需要10分鐘來收回撒菱。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Caltrops"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Candle": {
+        "key": "Candle",
+        "name": "蠟燭(Candle)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Candle": {
+            "name": "蠟燭",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銅幣\n* 重量： 1 磅\n* 一支蠟燭可以燃燒1小時，在5英尺半徑內產生**明亮光照**，並在額外5英尺範圍內產生**微光照明**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Candle"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Crossbow_Bolt_Case": {
+        "key": "Crossbow_Bolt_Case",
+        "name": "弩矢匣(Crossbow Bolt Case)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Crossbow_Bolt_Case": {
+            "name": "弩矢匣",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 一個弩箭袋可以容納最多20支**弩箭**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Crossbow_Bolt_Case"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Map_or_Scroll_Case": {
+        "key": "Map_or_Scroll_Case",
+        "name": "地圖或卷軸筒(Map or Scroll Case)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Map_or_Scroll_Case": {
+            "name": "地圖或卷軸筒",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 一個地圖或卷軸盒可以容納最多10張**紙**或5張**羊皮紙**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Map_or_Scroll_Case"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Chain": {
+        "key": "Chain",
+        "name": "鎖鍊(Chain)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Chain": {
+            "name": "鎖鍊",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 10 磅\n* 作為**使用**動作，如果你成功通過一次DC 13的力量（運動）檢定，你可以將鎖鏈纏繞在你5英尺內具有**被擒**、**失能**或**束縛**狀態的不願意的生物身上。如果該生物的腿部被綁住，該生物將處於束縛狀態直到逃脫。逃脫鎖鏈需要該生物以一個動作成功通過DC 18的敏捷（特技）檢定。破壞鎖鏈需要以一個動作成功通過DC 20的力量（運動）檢定。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Chain"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Chest": {
+        "key": "Chest",
+        "name": " 箱子(Chest)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Chest": {
+            "name": "箱子",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 25 磅\n* 一個箱子可以容納最多12立方英尺的內容物。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Chest"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Climber-s_Kit": {
+        "key": "Climber-s_Kit",
+        "name": "攀爬工具組(Climber's Kit)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Climber-s_Kit": {
+            "name": "攀爬工具組",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 25 金幣\n* 重量： 12 磅\n* 攀登工具包括靴尖、手套、釘子和安全帶。作為**使用**動作，你可以使用攀登工具來固定自己；當你這樣做時，你不會從錨點處墜落超過25英尺，且在不解開錨點的情況下（需要一個附贈動作），你無法移動超過距離錨點25英尺的位置。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Climber-s_Kit"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Fine_Clothes": {
+        "key": "Fine_Clothes",
+        "name": "高級服裝(Fine Clothes)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Fine_Clothes": {
+            "name": "高級服裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 15 金幣\n* 重量： 6 磅\n* 精緻衣物由昂貴的布料製成，並飾有精心製作的細節。一些活動和地點只允許穿著這種衣物的人進入。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Fine_Clothes"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Traveler-s_Clothes": {
+        "key": "Traveler-s_Clothes",
+        "name": "旅行者服裝(Traveler's Clothes)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Traveler-s_Clothes": {
+            "name": "旅行者服裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 4 磅\n* 旅行衣物是為在各種環境中旅行而設計的耐用服裝。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Traveler-s_Clothes"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Component_Pouch": {
+        "key": "Component_Pouch",
+        "name": "材料包(Component Pouch)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Component_Pouch": {
+            "name": "材料包",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 25 金幣\n* 重量： 2 磅\n* 材料包是防水的，內部有多個隔層，可以存放你所有法術的免費材料成分。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Component_Pouch"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Costume_Clothes": {
+        "key": "Costume_Clothes",
+        "name": "戲服(Costume Clothes)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Costume_Clothes": {
+            "name": "戲服",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 4 磅\n* 當穿著戲服時，你在任何模仿該戲服所代表的人或類型的人的能力檢定上有**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Costume_Clothes"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Crowbar": {
+        "key": "Crowbar",
+        "name": "撬棍(Crowbar)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Crowbar": {
+            "name": "撬棍",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 5 磅\n* 使用撬棍可以在可以應用撬棍槓桿作用的力量檢定上給予你**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Crowbar"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Diplomat-s_Pack": {
+        "key": "Diplomat-s_Pack",
+        "name": "大使套裝(Diplomat's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Diplomat-s_Pack": {
+            "name": "大使套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 39 金幣\n* 重量： 39 磅\n* 外交官包包含以下物品：**箱子**、**精緻衣物**、**墨水**、5支**墨水筆**、**油燈**、2個**地圖或卷軸盒**、4瓶**油**、5張**紙**、5張**羊皮紙**、**香水**和**火絨盒**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Diplomat-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Dungeoneer-s_Pack": {
+        "key": "Dungeoneer-s_Pack",
+        "name": "地城探險家套裝(Dungeoneer's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Dungeoneer-s_Pack": {
+            "name": "地城探險家套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 12 金幣\n* 重量： 55 磅\n* 地城探險者包包含以下物品：**背包**、**撒菱**、**撬棍**、2瓶**油**、10天的**口糧**、**繩索**、**火絨盒**、10支**火把**和**水袋**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Dungeoneer-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Entertainer-s_Pack": {
+        "key": "Entertainer-s_Pack",
+        "name": "表演家套裝(Entertainer's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Entertainer-s_Pack": {
+            "name": "表演家套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 40 金幣\n* 重量： 58½ 磅\n* 藝人包包含以下物品：**背包**、**睡袋**、**鈴鐺**、**聚光燈**、3套**戲服**、**鏡子**、8瓶**油**、9天的**口糧**、**火絨盒**和**水袋**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Entertainer-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Explorer-s_Pack": {
+        "key": "Explorer-s_Pack",
+        "name": "探索者套裝(Explorer's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Explorer-s_Pack": {
+            "name": "探索者套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 10 金幣\n* 重量： 55 磅\n* 探險家包包含以下物品：**背包**、**睡袋**、2瓶**油**、10天的**口糧**、**繩索**、**火絨盒**、10支**火把**和**水袋**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Explorer-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Tankard": {
+        "key": "Tankard",
+        "name": "啤酒杯(Tankard)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Tankard": {
+            "name": "啤酒杯",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 銅幣\n* 重量： 1 磅\n* 一個酒壺可以容納1品脫液體。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Tankard"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Grappling_Hook": {
+        "key": "Grappling_Hook",
+        "name": "爪鉤(Grappling Hook)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Grappling_Hook": {
+            "name": "爪鉤",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 4 磅\n* 作為**使用**動作，你可以將鉤爪投向50英尺內的欄杆、壁架或其他抓取點，如果你在DC 13的敏捷（特技）檢定上成功，鉤爪就會抓住。如果你將**繩索**綁在鉤爪上，你就可以攀爬。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Grappling_Hook"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Healer-s_Kit": {
+        "key": "Healer-s_Kit",
+        "name": "醫療工具組(Healer's Kit)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Healer-s_Kit": {
+            "name": "醫療工具組",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 3 磅\n* 治療套件有十次使用次數。作為**使用**動作，你可以消耗其中一次使用，使一個處於0生命值的**昏迷**生物穩定下來，而無需進行感知（醫療）檢定。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Healer-s_Kit"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Holy_Water": {
+        "key": "Holy_Water",
+        "name": "聖水(Holy Water)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Holy_Water": {
+            "name": "聖水",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 25 金幣\n* 重量： 1 磅\n* 當你採取**攻擊**動作時，你可以用投擲一瓶聖水來替代其中一次攻擊。選擇你可以看見的、在你20英尺內的一個生物作為目標。目標必須成功通過一次敏捷豁免檢定（DC為8加上你的敏捷調整值和熟練加值），否則如果它是邪魔或不死生物，就會受到2d8點光耀傷害。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Holy_Water"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Hunting_Trap": {
+        "key": "Hunting_Trap",
+        "name": "狩獵陷阱(Hunting Trap)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Hunting_Trap": {
+            "name": "狩獵陷阱",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 25 磅\n* 作為**使用**動作，你可以設置一個獵捕陷阱，這是一個當生物踩在中央的壓力板上時會閉合的鋸齒鋼圈。陷阱通過一條重鏈固定在一個不動的物體上，比如樹木或釘入地面的尖樁。踩在壓力板上的生物必須成功通過DC 13的敏捷豁免檢定，否則受到1d4點穿刺傷害，且其速度降為0直到其下一回合開始。此後，直到生物掙脫陷阱，其移動受限於鏈條的長度（通常為3英尺）。生物可以使用其動作進行DC 13的力量（運動）檢定，成功則使自己或其觸及範圍內的另一個生物掙脫。每次失敗的檢定會對被困生物造成1點穿刺傷害。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Hunting_Trap"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Ink": {
+        "key": "Ink",
+        "name": "墨水(Ink)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Ink": {
+            "name": "墨水",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 10 金幣\n* 重量： 1 磅\n* 墨水裝在1盎司的瓶子中，足夠書寫約500頁。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Ink"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Ink_Pen": {
+        "key": "Ink_Pen",
+        "name": "墨水筆(Ink Pen)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Ink_Pen": {
+            "name": "墨水筆",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 銅幣\n* 重量： 1 磅\n* 墨水筆與**墨水**一起使用，用於書寫或繪畫。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Ink_Pen"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Pitcher": {
+        "key": "Pitcher",
+        "name": "水罐(Pitcher)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Pitcher": {
+            "name": "水罐",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 銅幣\n* 重量： 4 磅\n* 一個水罐可以容納1加侖液體。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Pitcher"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Ladder": {
+        "key": "Ladder",
+        "name": "長梯(Ladder)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Ladder": {
+            "name": "長梯",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銀幣\n* 重量： 25 磅\n* 梯子高10英尺。你必須攀爬才能在其上上下移動。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Ladder"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Lamp": {
+        "key": "Lamp",
+        "name": "油燈(Lamp)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Lamp": {
+            "name": "油燈",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銀幣\n* 重量： 1 磅\n* 油燈燃燒**油**作為燃料，在15英尺半徑內產生**明亮光照**，並在額外30英尺範圍內產生**微光照明**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Lamp"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Bullseye_Lantern": {
+        "key": "Bullseye_Lantern",
+        "name": "牛眼提燈(Bullseye Lantern)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Bullseye_Lantern": {
+            "name": "牛眼提燈",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 10 金幣\n* 重量： 2 磅\n* 聚光燈燃燒**油**作為燃料，在60英尺**錐形**區域內產生**明亮光照**，並在額外60英尺範圍內產生**微光照明**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Bullseye_Lantern"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Hooded_Lantern": {
+        "key": "Hooded_Lantern",
+        "name": "附蓋提燈(Hooded Lantern)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Hooded_Lantern": {
+            "name": "附蓋提燈",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 2 磅\n* 遮罩燈燃燒**油**作為燃料，在30英尺半徑內產生**明亮光照**，並在額外30英尺範圍內產生**微光照明**。作為附贈動作，你可以降下燈罩，將光線減弱到5英尺半徑的微光照明，或再次升起燈罩。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Hooded_Lantern"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Lock": {
+        "key": "Lock",
+        "name": "鎖(Lock)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Lock": {
+            "name": "鎖",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 10 金幣\n* 重量： 1 磅\n* 鎖附帶一把鑰匙。沒有鑰匙的情況下，生物可以使用**盜賊工具**嘗試開啟這個鎖，需要成功通過DC 15的敏捷（巧手）檢定。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Lock"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Magnifying_Glass": {
+        "key": "Magnifying_Glass",
+        "name": "放大鏡(Magnifying Glass)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Magnifying_Glass": {
+            "name": "放大鏡",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 100 金幣\n* 重量： 1 磅\n* 放大鏡在鑑定或檢查高度細緻的物品時，給予你在任何能力檢定上的**優勢**。使用放大鏡點火需要如陽光般明亮的光線來聚焦，可燃物來點燃，並且需要大約5分鐘才能點燃火焰。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Magnifying_Glass"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Manacles": {
+        "key": "Manacles",
+        "name": "鐐銬(Manacles)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Manacles": {
+            "name": " 鐐銬",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 6 磅\n* 作為**使用**動作，如果你在DC 13的敏捷（巧手）檢定上成功，你可以用手銬銬住5英尺內具有**被擒**、**失能**或**束縛**狀態的一個不願意的小型或中型生物。被銬住的生物在攻擊檢定上有**劣勢**，如果手銬被固定在鎖鏈或鉤子上，該生物處於**束縛**狀態。逃脫手銬需要該生物以一個動作成功通過DC 20的敏捷（巧手）檢定。破壞手銬需要以一個動作成功通過DC 25的力量（運動）檢定。每副手銬都附帶一把鑰匙。沒有鑰匙的情況下，生物可以使用**盜賊工具**嘗試開啟手銬的鎖，需要成功通過DC 15的敏捷（巧手）檢定。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Manacles"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Map": {
+        "key": "Map",
+        "name": "地圖(Map)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Map": {
+            "name": "地圖",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 如果你查閱一張準確的地圖，你在尋找地圖上表示的地方時，在感知（生存）檢定上獲得+5加值。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Map"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Steel_Mirror": {
+        "key": "Steel_Mirror",
+        "name": "鋼面小鏡(Steel Mirror)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Steel_Mirror": {
+            "name": "鋼面小鏡",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 1/2 磅\n* 一面手持的鋼製鏡子不僅可用於個人化妝，還可用於窺視拐角處和反射光線作為信號。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Steel_Mirror"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Oil": {
+        "key": "Oil",
+        "name": "燈油(Oil)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Oil": {
+            "name": "燈油",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銀幣\n* 重量： 1 磅\n* 你可以用油澆灑一個生物、物體或空間，或將其作為燃料，詳細如下。\n  ***澆灑生物或物體。***當你採取**攻擊**動作時，你可以用投擲一瓶油來替代其中一次攻擊。選擇20英尺內的一個生物或物體作為目標。目標必須成功通過一次敏捷豁免檢定（DC為8加上你的敏捷調整值和熟練加值），否則會被油覆蓋。如果目標在油乾（1分鐘後）之前受到火焰傷害，目標會因燃燒的油受到額外5點火焰傷害。\n  ***澆灑空間。***你可以採取**使用**動作，將一瓶油倒在你5英尺內的平坦地面上，覆蓋一個5英尺見方的區域。如果點燃，油會燃燒到油被點燃後2輪結束時的回合結束（或12秒），並對進入該區域或在該處結束其回合的任何生物造成5點火焰傷害。一個生物每回合只能受到這種傷害一次。\n  ***燃料。***油可作為油燈和燈籠的燃料。一瓶油一旦點燃，可以在油燈或燈籠中燃燒6小時。這個持續時間不需要連續；你可以熄滅燃燒的油（作為**使用**動作），然後再次點燃，直到它總共燃燒了6小時。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Oil"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Paper": {
+        "key": "Paper",
+        "name": "紙(Paper)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Paper": {
+            "name": "紙",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 銀幣\n* 重量： 1 磅\n* 一張紙可以容納約250個手寫字。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Paper"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Parchment": {
+        "key": "Parchment",
+        "name": "羊皮紙(Parchment)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Parchment": {
+            "name": "羊皮紙",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銀幣\n* 重量： 1 磅\n* 一張羊皮紙可以容納約250個手寫字。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Parchment"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Perfume": {
+        "key": "Perfume",
+        "name": "香水(Perfume)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Perfume": {
+            "name": "香水",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 金幣\n* 重量： 1 磅\n* 香水裝在4盎司的小瓶中。在你身上塗抹香水後的1小時內，你在對5英尺內的**中立**類人生物進行魅力（說服）檢定時有**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Perfume"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Basic_Poison": {
+        "key": "Basic_Poison",
+        "name": "基礎毒藥(Basic Poison)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Basic_Poison": {
+            "name": "基礎毒藥",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 100 金幣\n* 重量： 1 磅\n* 作為附贈動作，你可以使用一瓶基礎毒藥塗抹一件武器或最多三發彈藥。受到被毒化的武器或彈藥造成的穿刺或揮砍傷害的生物會受到額外1d4點毒素傷害。一旦塗抹，毒藥在1分鐘內或直到其傷害被造成（以先到者為準）保持效力。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Basic_Poison"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Pole": {
+        "key": "Pole",
+        "name": "長桿(Pole)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Pole": {
+            "name": "長桿",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銅幣\n* 重量： 7 磅\n* 長桿長10英尺。你可以用它觸碰最遠10英尺的東西。如果你必須在**高跳**或**遠跳**中進行力量（運動）檢定，你可以用長桿撐桿跳，讓你在該檢定上獲得**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Pole"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Iron_Pot": {
+        "key": "Iron_Pot",
+        "name": " 鐵鍋(Iron Pot)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Iron_Pot": {
+            "name": " 鐵鍋",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 10 磅\n* 一個鐵鍋可以容納1加侖液體",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Iron_Pot"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Priest-s_Pack": {
+        "key": "Priest-s_Pack",
+        "name": "祭司套裝(Priest's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Priest-s_Pack": {
+            "name": "祭司套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 33 金幣\n* 重量： 29 磅\n* 牧師包包含以下物品：**背包**、**毛毯**、**聖水**、**油燈**、7天的**口糧**、**長袍**和**火絨盒**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Priest-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Quiver": {
+        "key": "Quiver",
+        "name": "箭袋(Quiver)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Quiver": {
+            "name": "箭袋",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 一個箭袋可以容納最多20支**箭**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Quiver"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Portable_Ram": {
+        "key": "Portable_Ram",
+        "name": "便攜型攻城鎚(Portable Ram)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Portable_Ram": {
+            "name": "便攜型攻城鎚",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 4 金幣\n* 重量： 35 磅\n* 你可以使用攜帶式衝撞器來破門。當這樣做時，你在力量檢定上獲得+4加值。另一個角色可以幫助你使用衝撞器，讓你在這次檢定上獲得**優勢**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Portable_Ram"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Rations": {
+        "key": "Rations",
+        "name": "口糧(Rations)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Rations": {
+            "name": "口糧",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銀幣\n* 重量： 2 磅\n* 口糧包括旅行準備的食物，如肉乾、乾果、硬餅乾和堅果。有關不進食的風險，請參見**規則詞彙表**中的\"**營養不良**\"。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Rations"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Robes": {
+        "key": "Robes",
+        "name": "長袍(Robes)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Robes": {
+            "name": "長袍",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 4 磅\n* 長袍具有職業或儀式意義。一些活動和地點只允許穿著帶有特定顏色或符號的長袍的人進入。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Robes"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Hempen_Rope": {
+        "key": "Hempen_Rope",
+        "name": "麻繩(Hempen Rope)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Hempen_Rope": {
+            "name": "麻繩",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 5 磅\n* 作為**使用**動作，如果你在DC 10的敏捷（巧手）檢定上成功，你可以用繩索打結。繩索可以通過成功的DC 20力量（運動）檢定被扯斷。\n  你只能在生物具有**被擒**、**失能**或**束縛**狀態時用繩索綁住它。如果生物的腿部被綁住，該生物處於束縛狀態直到逃脫。逃脫繩索需要該生物以一個動作成功通過DC 15的敏捷（特技）檢定。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Hempen_Rope"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Sack": {
+        "key": "Sack",
+        "name": "麻袋(Sack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Sack": {
+            "name": "麻袋",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銅幣\n* 重量： 1/2 磅\n* 一個麻袋可以容納最多30磅的物品，容積為1立方英尺。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Sack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Scholar-s_Pack": {
+        "key": "Scholar-s_Pack",
+        "name": "學者套裝(Scholar's Pack)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Scholar-s_Pack": {
+            "name": "學者套裝",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 40 金幣\n* 重量： 22 磅\n* 學者包包含以下物品：**背包**、**書籍**、**墨水**、**墨水筆**、**油燈**、10瓶**油**、10張**羊皮紙**和**火絨盒**。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Scholar-s_Pack"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Shovel": {
+        "key": "Shovel",
+        "name": "鏟子(Shovel)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Shovel": {
+            "name": "鏟子",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 5 磅\n* 工作1小時，你可以用鏟子在土壤或類似材料中挖出一個5英尺見方的洞。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Shovel"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Signal_Whistle": {
+        "key": "Signal_Whistle",
+        "name": "訊號哨(Signal Whistle)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Signal_Whistle": {
+            "name": "訊號哨",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銅幣\n* 重量： 1 磅\n* 當作為**使用**動作吹響時，信號哨會產生可以在600英尺外聽到的聲音。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Signal_Whistle"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Iron_Spikes": {
+        "key": "Iron_Spikes",
+        "name": "大鐵釘(Iron Spikes)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Iron_Spikes": {
+            "name": "大鐵釘",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 5 磅\n* 鐵釘成捆出售，每捆十支。作為**使用**動作，你可以用鈍器（如**輕錘**）將釘子釘入木頭、土地或類似材料中。你可以這樣做來卡住門或將**繩索**或**鎖鏈**綁在釘子上。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Iron_Spikes"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Spyglass": {
+        "key": "Spyglass",
+        "name": "望遠鏡(Spyglass)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Spyglass": {
+            "name": "望遠鏡",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1000 金幣\n* 重量： 1 磅\n* 通過望遠鏡觀看的物體會被放大到兩倍大小。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Spyglass"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Silk_Rope": {
+        "key": "Silk_Rope",
+        "name": "絲繩(Silk Rope)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Silk_Rope": {
+            "name": "絲繩",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銀幣\n* 重量： 1 磅\n* 細繩長10英尺。你可以作為**使用**動作在上面打結。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Silk_Rope"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Two-Person_Tent": {
+        "key": "Two-Person_Tent",
+        "name": "雙人帳篷(Two-Person Tent)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Two-Person_Tent": {
+            "name": "雙人帳篷",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 金幣\n* 重量： 20 磅\n* 一個帳篷可容納最多兩個小型或中型生物睡眠。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Two-Person_Tent"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Tinderbox": {
+        "key": "Tinderbox",
+        "name": "打火匣(Tinderbox)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Tinderbox": {
+            "name": "打火匣",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 5 銀幣\n* 重量： 1 磅\n* 火絨盒是一個小容器，裡面裝有燧石、打火鐵和火絨（通常是浸過輕油的乾布），用於點火。用它點燃**蠟燭**、**油燈**、燈籠或**火把**——或任何其他暴露的燃料——需要一個附贈動作。點燃任何其他火焰需要1分鐘。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Tinderbox"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Torch": {
+        "key": "Torch",
+        "name": " 火炬(Torch)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Torch": {
+            "name": " 火炬",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 銅幣\n* 重量： 1 磅\n* 一支火把可以燃燒1小時，在20英尺半徑內產生**明亮光照**，並在額外20英尺範圍內產生**微光照明**。當你採取**攻擊**動作時，你可以用火把攻擊，將其作為簡易近戰武器使用。命中時，目標受到1點火焰傷害。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Torch"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Vial": {
+        "key": "Vial",
+        "name": "小瓶(Vial)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Vial": {
+            "name": "小瓶",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 1 金幣\n* 重量： 1 磅\n* 一個小瓶可以容納最多4盎司液體。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Vial"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Waterskin": {
+        "key": "Waterskin",
+        "name": "水袋(Waterskin)",
+        "description": "",
+        "categories": {},
+        "attributes": {
+          "Waterskin": {
+            "name": "水袋",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 價值： 2 銀幣\n* 重量： 5 磅\n* 一個水袋可以容納4品脫液體。如果你不喝足夠的水，你可能會面臨**脫水**的風險（見**規則詞彙表**）。",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Waterskin"
+        ],
+        "tags": ["冒險裝備"]
+      },
+      "Padded_Armor": {
+        "key": "Padded_Armor",
+        "name": "布甲(Padded Armor)",
+        "description": "布甲是由一層層縫起的布料和棉絮所製成。",
+        "categories": {},
+        "attributes": {
+          "Padded-Armor": {
+            "name": "布甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 輕甲\n* 價值： 5 金幣\n* 重量： 8 磅\n* AC： 11 + 敏捷(DEX)調整值\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "overrides|items:items:armor",
+          "attributes|items:itemList:Padded-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Leather_Armor": {
+        "key": "Leather_Armor",
+        "name": "皮甲(Leather Armor)",
+        "description": "這套護甲的護胸和肩甲是由浸泡過滾油而硬化的皮革製成。護甲的其他部分則是用較柔軟且具彈性的材料製作。",
+        "categories": {},
+        "attributes": {
+          "Leather-Armor": {
+            "name": "皮甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 輕甲\n* 價值： 10 金幣\n* 重量： 10 磅\n* AC： 11 + 敏捷(DEX)調整值",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Leather-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Studded_Leather_Armor": {
+        "key": "Studded_Leather_Armor",
+        "name": "鑲釘皮甲(Studded Leather Armor)",
+        "description": "由強韌而柔軟的皮革製成，鑲釘皮甲被以緊密的鉚釘或尖刺進一步強化。",
+        "categories": {},
+        "attributes": {
+          "Studded-Leather-Armor": {
+            "name": "鑲釘皮甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 輕甲\n* 價值： 45 金幣\n* 重量： 13 磅\n* AC： 12 + 敏捷(DEX)調整值",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Studded-Leather-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Hide_Armor": {
+        "key": "Hide_Armor",
+        "name": "生皮甲(Hide Armor)",
+        "description": "這套粗糙的護甲由厚毛和生皮製成。它常見於蠻人部族，邪惡類人，和其他因欠缺適當的工具和材料而無法製造較好防具的族群。",
+        "categories": {},
+        "attributes": {
+          "Hide-Armor": {
+            "name": "生皮甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 中甲\n* 價值： 10 金幣\n* 重量： 12 磅\n* AC： 12 + 敏捷(DEX)調整值(最高2)",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Hide-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Chain_Shirt": {
+        "key": "Chain_Shirt",
+        "name": " 鏈甲衫(Chain Shirt)",
+        "description": "由交織的鐵環製成，鏈甲衫被穿在層層布料或皮革之間。這套護甲為穿戴者的上半身提供了適當的保護，且透過外層衣物蒙住鐵環彼此摩擦所發出的聲音。",
+        "categories": {},
+        "attributes": {
+          "Chain-Shirt": {
+            "name": " 鏈甲衫",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 中甲\n* 價值： 50 金幣\n* 重量： 20 磅\n* AC： 13 + 敏捷(DEX)調整值(最高2)",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Chain-Shirt"
+        ],
+        "tags": ["護甲"]
+      },
+      "Scale_Mail": {
+        "key": "Scale_Mail",
+        "name": " 鱗甲(Scale Mail)",
+        "description": "這套護甲由皮革製的上衣及綁腿（或許還帶有一件短裙）構成，皮革表面覆蓋著彼此交疊的金屬片，就像是魚鱗一樣。整套護甲還包含了一雙鐵手套。",
+        "categories": {},
+        "attributes": {
+          "Scale-Mail": {
+            "name": "鱗甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "rolls": [],
+            "description": "* 中甲\n* 價值： 50 金幣\n* 重量： 45 磅\n* AC： 14 + 敏捷(DEX)調整值(最高2)\n* 隱匿劣勢"
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Scale-Mail"
+        ],
+        "tags": ["護甲"]
+      },
+      "Breastplate": {
+        "key": "Breastplate",
+        "name": "護胸甲(Breast Plate)",
+        "description": "這套護甲是由一塊墊著柔軟皮革的合身鐵製胸板所構成。雖然它相對來說保護不了手和腳，但這套護甲能在為穿載者的重要器官提供良好保護的同時，而不太會妨礙穿載者的行動。",
+        "categories": {},
+        "attributes": {
+          "Breastplate": {
+            "name": "護胸甲",
+            "type": "number",
+            "value": 0,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 中甲\n* 價值： 400 金幣\n* 重量： 20 磅\n* AC： 14 + 敏捷(DEX)調整值(最高2)",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Breastplate"
+        ],
+        "tags": ["護甲"]
+      },
+      "Half_Plate_Armor": {
+        "key": "Half_Plate_Armor",
+        "name": "半身板甲(Half Plate Armor)",
+        "description": "半身板甲由一片片特別形狀的鐵板所構成，覆蓋穿載者大部分的上半身。它對腿部提供的保護僅止於以皮帶固定的護脛。",
+        "categories": {},
+        "attributes": {
+          "Half-Plate-Armor": {
+            "name": "半身板甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 中甲\n* 價值： 750 金幣\n* 重量： 40 磅\n* AC： 14 + 敏捷(DEX)調整值(最高2)\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Half-Plate-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Ring_Mail": {
+        "key": "Ring_Mail",
+        "name": "環甲(Ring Mail)",
+        "description": "這套護甲是縫上了重鐵環的皮甲。護甲上的鐵環能有效幫助抵擋劍和斧的斬擊。環甲略遜於鎖子甲，且因此通常被無法負擔更好護甲的人們穿戴。",
+        "categories": {},
+        "attributes": {
+          "Ring-Mail": {
+            "name": "環甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 重甲\n* 價值： 30 金幣\n* 重量： 40 磅\n* AC： 14\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Ring-Mail"
+        ],
+        "tags": ["護甲"]
+      },
+      "Chain_Mail": {
+        "key": "Chain_Mail",
+        "name": "鎖子甲(Chain Mail)",
+        "description": "由交織的鐵環製成，鎖子甲還包括了一層襯墊在鎖甲下方的布料以避免擦傷和分散衝擊力。整套護甲還包含了一雙鐵手套。\n\n如果穿戴者的力量屬性不到 13，他們的移動速度減少10呎。",
+        "categories": {},
+        "attributes": {
+          "Chain-Mail": {
+            "name": "鎖子甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 重甲\n* 價值： 75 金幣\n* 重量： 55 磅\n* AC： 16\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Chain-Mail"
+        ],
+        "tags": ["護甲"]
+      },
+      "Splint_Armor": {
+        "key": "Splint_Armor",
+        "name": "條板甲(Splint Armor)",
+        "description": "這套護甲是由狹長的直鐵條鉚接於穿在墊衣外層的皮襯上所製成。並以靈活的鎖子甲保護著關節。\n\n如果穿戴者的力量屬性不到 15，他們的移動速度減少10呎。",
+        "categories": {},
+        "attributes": {
+          "Splint-Armor": {
+            "name": "條板甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 重甲\n* 價值： 200 金幣\n* 重量： 60 磅\n* AC： 17\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Splint-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Plate_Armor": {
+        "key": "Plate_Armor",
+        "name": "全身板甲(Plate Armor)",
+        "description": "全身板甲由特定形狀、互相扣鎖的鐵板所構成以覆蓋全身。整套*全身板甲*還包括一雙鐵手套、重皮靴、附面甲的頭盔、和護甲底下墊著的厚厚襯墊。皮帶和索具將整套護甲的重量平均分佈到全身。\n\n如果穿戴者的力量屬性不到 15，他們的移動速度減少10呎。",
+        "categories": {},
+        "attributes": {
+          "Plate-Armor": {
+            "name": "全身板甲",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 重甲\n* 價值： 1500 金幣\n* 重量： 65 磅\n* AC： 18\n* 隱匿劣勢",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Plate-Armor"
+        ],
+        "tags": ["護甲"]
+      },
+      "Shield": {
+        "key": "Shield",
+        "name": "盾牌(Shield)",
+        "description": "盾牌由木頭或金屬打造，且可以用一隻手攜帶。持握一面盾牌會增加你的護甲等級2點。你同時只能受益於一面盾牌的效果。",
+        "categories": {},
+        "attributes": {
+          "Shield": {
+            "name": "盾牌",
+            "type": "number",
+            "value": 1,
+            "readonly": false,
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "* 盾牌\n* 價值： 10 金幣\n* 重量： 6 磅\n* AC： +2",
+            "rolls": []
+          }
+        },
+        "overrides": {},
+        "order": [
+          "attributes|items:itemList:Shield"
+        ],
+        "tags": ["護甲"]
+      }
+    }
+  }
+}

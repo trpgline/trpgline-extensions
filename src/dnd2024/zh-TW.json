@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "system": "dnd2024",
+  "extends": {
+    "ids": ["classes", "feats", "mastery", "origins", "backgrounds", "spells_0-3", "spells_4-6", "spells_7-9", "toolList", "Item"],
+    "entities": {
+      "origins": {
+        "id": "origins",
+        "name": "起源",
+        "tags": [],
+        "external": "zh-TW/origins.json",
+        "value": {}
+      },
+      "feats": {
+        "id": "feats",
+        "name": "專長",
+        "external": "zh-TW/feats.json",
+        "tags": [],
+        "value": {}
+      },
+      "backgrounds": {
+        "id": "backgrounds",
+        "name": "角色背景",
+        "external": "zh-TW/backgrounds.json",
+        "tags": [],
+        "value": {}
+      },
+      "mastery": {
+        "id": "mastery",
+        "name": "武器精通",
+        "external": "zh-TW/mastery.json",
+        "tags": [],
+        "value": {}
+      },
+      "classes": {
+        "id": "classes",
+        "name": "職業",
+        "external": "zh-TW/classes.json",
+        "tags": [],
+        "value": {}
+      },
+      "spells_0-3": {
+        "id": "spells_0-3",
+        "name": "0-3三環法術",
+        "external": "zh-TW/spells_0-3.json",
+        "tags": [],
+        "value": {}
+      },
+      "spells_4-6": {
+        "id": "spells_4-6",
+        "name": "4-6環法術",
+        "external": "zh-TW/spells_4-6.json",
+        "tags": [],
+        "value": {}
+      },
+      "spells_7-9": {
+        "id": "spells_7-9",
+        "name": "7-9環法術",
+        "external": "zh-TW/spells_7-9.json",
+        "tags": [],
+        "value": {}
+      },
+      "toolList": {
+        "id": "toolList",
+        "name": "工具熟練",
+        "tags": [],
+        "external": "zh-TW/toolList.json",
+        "value": {}
+      },
+      "Item": {
+        "id": "Item",
+        "name": "物品",
+        "tags": [],
+        "external": "zh-TW/Item.json",
+        "value": {}
+      }
+    }
+  }
+}

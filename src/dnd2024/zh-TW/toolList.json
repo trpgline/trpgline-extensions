@@ -1,0 +1,793 @@
+{
+  "id": "toolList",
+  "name": "工具熟練",
+  "tags": ["工具"],
+  "value": {
+    "ids": [
+      "alchemistsSupplies",
+      "brewersSupplies",
+      "calligraphersSupplies",
+      "carpentersTools",
+      "cartographersTools",
+      "cobblersTools",
+      "cooksUtensils",
+      "glassblowersTools",
+      "jewelersTools",
+      "leatherworkersTools",
+      "masonsTools",
+      "paintersSupplies",
+      "pottersTools",
+      "smithsTools",
+      "tinkersTools",
+      "weaversTools",
+      "woodcarversTools",
+      "disguiseKit",
+      "forgeryKit",
+      "herbalismKit",
+      "navigatorsTools",
+      "poisonersKit",
+      "thievesTools"
+    ],
+    "entities": {
+      "alchemistsSupplies": {
+        "key": "alchemistsSupplies",
+        "name": "煉金術士設備",
+        "description": "此擴充包含：\n - 煉金術士設備熟練\n- 煉金術士設備",
+        "categories": {},
+        "attributes": {
+          "alchemistsSuppliesItem": {
+            "name": "煉金術士設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 8磅\n\n**價值**: 50gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "alchemistsSuppliesTool": {
+            "name": "煉金術士設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:alchemistsSuppliesItem",
+          "attributes|skills:otherSkills:alchemistsSuppliesTool"
+        ],
+        "tags": ["工具"]
+      },
+      "brewersSupplies": {
+        "key": "brewersSupplies",
+        "name": "啤酒釀造設備",
+        "description": "此擴充包含：\n - 啤酒釀造設備熟練\n- 啤酒釀造設備",
+        "categories": {},
+        "attributes": {
+          "brewersSuppliesItem": {
+            "name": "啤酒釀造設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 9磅\n\n**價值**: 20gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "brewersSuppliesTool": {
+            "name": "啤酒釀造設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:brewersSuppliesItem",
+          "attributes|skills:otherSkills:brewersSuppliesTool"
+        ],
+        "tags": ["工具"]
+      },
+      "calligraphersSupplies": {
+        "key": "calligraphersSupplies",
+        "name": "書寫工具",
+        "description": "此擴充包含：\n - 書寫工具熟練\n- 書寫工具",
+        "categories": {},
+        "attributes": {
+          "calligraphersSuppliesItem": {
+            "name": "書寫工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 10gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "calligraphersSuppliesTool": {
+            "name": "書寫工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:calligraphersSuppliesItem",
+          "attributes|skills:otherSkills:calligraphersSuppliesTool"
+        ],
+        "tags": ["工具"]
+      },
+      "carpentersTools": {
+        "key": "carpentersTools",
+        "name": "木匠工具",
+        "description": "此擴充包含：\n - 木匠工具熟練\n- 木匠工具",
+        "categories": {},
+        "attributes": {
+          "carpentersToolsItem": {
+            "name": "木匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 6磅\n\n**價值**: 8gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "carpentersToolsTool": {
+            "name": "木匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:carpentersToolsItem",
+          "attributes|skills:otherSkills:carpentersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "cartographersTools": {
+        "key": "cartographersTools",
+        "name": "制圖師工具",
+        "description": "此擴充包含：\n - 制圖師工具熟練\n- 制圖師工具",
+        "categories": {},
+        "attributes": {
+          "cartographersToolsItem": {
+            "name": "制圖師工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 6磅\n\n**價值**: 15gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cartographersToolsTool": {
+            "name": "制圖師工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cartographersToolsItem",
+          "attributes|skills:otherSkills:cartographersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "cobblersTools": {
+        "key": "cobblersTools",
+        "name": "鞋匠工具",
+        "description": "此擴充包含：\n - 鞋匠工具熟練\n- 鞋匠工具",
+        "categories": {},
+        "attributes": {
+          "cobblersToolsItem": {
+            "name": "鞋匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 5gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cobblersToolsTool": {
+            "name": "鞋匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cobblersToolsItem",
+          "attributes|skills:otherSkills:cobblersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "cooksUtensils": {
+        "key": "cooksUtensils",
+        "name": "廚師用具",
+        "description": "此擴充包含：\n - 廚師用具熟練\n- 廚師用具",
+        "categories": {},
+        "attributes": {
+          "cooksUtensilsItem": {
+            "name": "廚師用具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 8磅\n\n**價值**: 1gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "cooksUtensilsTool": {
+            "name": "廚師用具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:cooksUtensilsItem",
+          "attributes|skills:otherSkills:cooksUtensilsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "glassblowersTools": {
+        "key": "glassblowersTools",
+        "name": "吹玻璃匠工具",
+        "description": "此擴充包含：\n - 吹玻璃匠工具熟練\n- 吹玻璃匠工具",
+        "categories": {},
+        "attributes": {
+          "glassblowersToolsItem": {
+            "name": "吹玻璃匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 30gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "glassblowersToolsTool": {
+            "name": "吹玻璃匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:glassblowersToolsItem",
+          "attributes|skills:otherSkills:glassblowersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "jewelersTools": {
+        "key": "jewelersTools",
+        "name": "珠寶匠工具",
+        "description": "此擴充包含：\n - 珠寶匠工具熟練\n- 珠寶匠工具",
+        "categories": {},
+        "attributes": {
+          "jewelersToolsItem": {
+            "name": "珠寶匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 2磅\n\n**價值**: 25gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "jewelersToolsTool": {
+            "name": "珠寶匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:jewelersToolsItem",
+          "attributes|skills:otherSkills:jewelersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "leatherworkersTools": {
+        "key": "leatherworkersTools",
+        "name": "皮革工具",
+        "description": "此擴充包含：\n - 皮革工具熟練\n- 皮革工具",
+        "categories": {},
+        "attributes": {
+          "leatherworkersToolsItem": {
+            "name": "皮革工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 5gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "leatherworkersToolsTool": {
+            "name": "皮革工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:leatherworkersToolsItem",
+          "attributes|skills:otherSkills:leatherworkersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "masonsTools": {
+        "key": "masonsTools",
+        "name": "石匠工具",
+        "description": "此擴充包含：\n - 石匠工具熟練\n- 石匠工具",
+        "categories": {},
+        "attributes": {
+          "masonsToolsItem": {
+            "name": "石匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 8磅\n\n**價值**: 10gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "masonsToolsTool": {
+            "name": "石匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:masonsToolsItem",
+          "attributes|skills:otherSkills:masonsToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "paintersSupplies": {
+        "key": "paintersSupplies",
+        "name": "美術設備",
+        "description": "此擴充包含：\n - 美術設備熟練\n- 美術設備",
+        "categories": {},
+        "attributes": {
+          "paintersSuppliesItem": {
+            "name": "美術設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 10gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "paintersSuppliesTool": {
+            "name": "美術設備",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:paintersSuppliesItem",
+          "attributes|skills:otherSkills:paintersSuppliesTool"
+        ],
+        "tags": ["工具"]
+      },
+      "pottersTools": {
+        "key": "pottersTools",
+        "name": "陶工工具",
+        "description": "此擴充包含：\n - 陶工工具熟練\n- 陶工工具",
+        "categories": {},
+        "attributes": {
+          "pottersToolsItem": {
+            "name": "陶工工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 3磅\n\n**價值**: 10gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "pottersToolsTool": {
+            "name": "陶工工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:pottersToolsItem",
+          "attributes|skills:otherSkills:pottersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "smithsTools": {
+        "key": "smithsTools",
+        "name": "鐵匠工具",
+        "description": "此擴充包含：\n - 鐵匠工具熟練\n- 鐵匠工具",
+        "categories": {},
+        "attributes": {
+          "smithsToolsItem": {
+            "name": "鐵匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 8磅\n\n**價值**: 20gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "smithsToolsTool": {
+            "name": "鐵匠工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:smithsToolsItem",
+          "attributes|skills:otherSkills:smithsToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "tinkersTools": {
+        "key": "tinkersTools",
+        "name": "維修工具",
+        "description": "此擴充包含：\n - 維修工具熟練\n- 維修工具",
+        "categories": {},
+        "attributes": {
+          "tinkersToolsItem": {
+            "name": "維修工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 10磅\n\n**價值**: 50gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "tinkersToolsTool": {
+            "name": "維修工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:tinkersToolsItem",
+          "attributes|skills:otherSkills:tinkersToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "weaversTools": {
+        "key": "weaversTools",
+        "name": "裁縫工具",
+        "description": "此擴充包含：\n - 裁縫工具熟練\n- 裁縫工具",
+        "categories": {},
+        "attributes": {
+          "weaversToolsItem": {
+            "name": "裁縫工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 1gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "weaversToolsTool": {
+            "name": "裁縫工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:weaversToolsItem",
+          "attributes|skills:otherSkills:weaversToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "woodcarversTools": {
+        "key": "woodcarversTools",
+        "name": "木雕師工具",
+        "description": "此擴充包含：\n - 木雕師工具熟練\n- 木雕師工具",
+        "categories": {},
+        "attributes": {
+          "woodcarversToolsItem": {
+            "name": "木雕師工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 1gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "woodcarversToolsTool": {
+            "name": "木雕師工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:woodcarversToolsItem",
+          "attributes|skills:otherSkills:woodcarversToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "disguiseKit": {
+        "key": "disguiseKit",
+        "name": "易容工具",
+        "description": "此擴充包含：\n - 易容工具熟練\n- 易容工具",
+        "categories": {},
+        "attributes": {
+          "disguiseKitItem": {
+            "name": "易容工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 3磅\n\n**價值**: 25gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "disguiseKitTool": {
+            "name": "易容工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:disguiseKitItem",
+          "attributes|skills:otherSkills:disguiseKitTool"
+        ],
+        "tags": ["工具"]
+      },
+      "forgeryKit": {
+        "key": "forgeryKit",
+        "name": "文書偽造工具組",
+        "description": "此擴充包含：\n - 文書偽造工具組熟練\n- 文書偽造工具組",
+        "categories": {},
+        "attributes": {
+          "forgeryKitItem": {
+            "name": "文書偽造工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 5磅\n\n**價值**: 15gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "forgeryKitTool": {
+            "name": "文書偽造工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:forgeryKitItem",
+          "attributes|skills:otherSkills:forgeryKitTool"
+        ],
+        "tags": ["工具"]
+      },
+      "herbalismKit": {
+        "key": "herbalismKit",
+        "name": "草藥師工具組",
+        "description": "此擴充包含：\n - 草藥師工具組熟練\n- 草藥師工具組",
+        "categories": {},
+        "attributes": {
+          "herbalismKitItem": {
+            "name": "草藥師工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 3磅\n\n**價值**: 5gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "herbalismKitTool": {
+            "name": "草藥師工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:herbalismKitItem",
+          "attributes|skills:otherSkills:herbalismKitTool"
+        ],
+        "tags": ["工具"]
+      },
+      "navigatorsTools": {
+        "key": "navigatorsTools",
+        "name": "導航工具組",
+        "description": "此擴充包含：\n - 導航工具組熟練\n- 導航工具組",
+        "categories": {},
+        "attributes": {
+          "navigatorsToolsItem": {
+            "name": "導航工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 2磅\n\n**價值**: 25gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "navigatorsToolsTool": {
+            "name": "導航工具組",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:navigatorsToolsItem",
+          "attributes|skills:otherSkills:navigatorsToolsTool"
+        ],
+        "tags": ["工具"]
+      },
+      "poisonersKit": {
+        "key": "poisonersKit",
+        "name": "使毒工具",
+        "description": "此擴充包含：\n - 使毒工具熟練\n- 使毒工具",
+        "categories": {},
+        "attributes": {
+          "poisonersKitItem": {
+            "name": "使毒工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 2磅\n\n**價值**: 50gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "poisonersKitTool": {
+            "name": "使毒工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:poisonersKitItem",
+          "attributes|skills:otherSkills:poisonersKitTool"
+        ],
+        "tags": ["工具"]
+      },
+      "thievesTools": {
+        "key": "thievesTools",
+        "name": "盜賊工具",
+        "description": "此擴充包含：\n - 盜賊工具熟練\n- 盜賊工具",
+        "categories": {},
+        "attributes": {
+          "thievesToolsItem": {
+            "name": "盜賊工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "value": 1,
+            "description": "**重量**: 1磅\n\n**價值**: 25gp",
+            "rolls": [],
+            "type": "number"
+          },
+          "thievesToolsTool": {
+            "name": "盜賊工具",
+            "hasCustomName": false,
+            "removable": false,
+            "disableSeparator": false,
+            "description": "",
+            "value": [false, false],
+            "rolls": [],
+            "type": "checkbox"
+          }
+        },
+        "order": [
+          "attributes|items:itemList:thievesToolsItem",
+          "attributes|skills:otherSkills:thievesToolsTool"
+        ],
+        "tags": ["工具"]
+      }
+    }
+  }
+}
