@@ -1,0 +1,656 @@
+{
+  "id": "mastery",
+  "name": "武器精通",
+  "tags": ["減速", "刺傷", "推擠", "干擾", "削弱", "絆倒", "掠傷", "橫掃"],
+  "value": {
+    "ids": ["club", "dagger", "greatClub","javelin", "lightCrossbow", "lightHammer","sling", "sickle","pike","warhammer","whip", "heavyCrossbow","longbow", "musket", "handaxe", "dart", "shortbow", "rapier", "scimitar", "shortsword", "handCrossbow", "blowgun", "pistol", "mace", "spear", "flail", "longsword", "morningstar", "warPick", "quarterstaff", "battleaxe", "lance", "maul", "trident", "glaive", "greatsword", "greataxe", "halberd"],
+    "entities": {
+      "club": {
+        "key": "club",
+        "name": "棍棒(Club) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "club": {
+            "name": "棍棒",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:club"]
+      },
+      "dagger": {
+        "key": "dagger",
+        "name": "匕首(dagger) - 刺傷",
+        "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "dagger": {
+            "name": "匕首",
+            "type": "text",
+            "readonly": true,
+            "value": "刺傷",
+            "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["刺傷"],
+        "order": ["attributes|weapon:mastery:dagger"]
+      },
+      "scimitar": {
+        "key": "scimitar",
+        "name": "彎刀(Scimitar) - 刺傷",
+        "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "scimitar": {
+            "name": "彎刀",
+            "type": "text",
+            "readonly": true,
+            "value": "刺傷",
+            "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["刺傷"],
+        "order": ["attributes|weapon:mastery:scimitar"]
+      },
+      "greatClub": {
+        "key": "greatClub",
+        "name": "巨木棒(Great Club) - 推擠",
+        "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。",
+        "categories": {},
+        "attributes": {
+          "greatClub": {
+            "name": "巨木棒",
+            "type": "text",
+            "readonly": true,
+            "value": "推擠",
+            "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。"
+          }
+        },
+        "tags": ["推擠"],
+        "order": ["attributes|weapon:mastery:greatClub"]
+      },
+      "javelin": {
+        "key": "javelin",
+        "name": "標槍(Javelin) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "javelin": {
+            "name": "標槍",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:javelin"]
+      },
+      "lightHammer": {
+        "key": "lightHammer",
+        "name": "輕錘(Light Hammer) - 刺傷",
+        "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "lightHammer": {
+            "name": "輕錘",
+            "type": "text",
+            "readonly": true,
+            "value": "刺傷",
+            "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["刺傷"],
+        "order": ["attributes|weapon:mastery:lightHammer"]
+      },
+      "lightCrossbow": {
+        "key": "lightCrossbow",
+        "name": "輕弩(Light Crossbow) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "lightCrossbow": {
+            "name": "輕弩",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:lightCrossbow"]
+      },
+      "sickle": {
+        "key": "sickle",
+        "name": "鐮刀(Sickle) - 刺傷",
+        "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "sickle": {
+            "name": "鐮刀",
+            "type": "text",
+            "readonly": true,
+            "value": "刺傷",
+            "description": "當你進行**輕型**屬性的額外攻擊時，你可以將其作為**攻擊**動作的一部分，而不是作為附贈動作。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["刺傷"],
+        "order": ["attributes|weapon:mastery:sickle"]
+      },
+      "sling": {
+        "key": "sling",
+        "name": "投石索(Sling) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "sling": {
+            "name": "投石索",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:sling"]
+      },
+      "pike": {
+        "key": "pike",
+        "name": "長矛(Pike) - 推擠",
+        "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。",
+        "categories": {},
+        "attributes": {
+          "pike": {
+            "name": "長矛",
+            "type": "text",
+            "readonly": true,
+            "value": "推擠",
+            "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。"
+          }
+        },
+        "tags": ["推擠"],
+        "order": ["attributes|weapon:mastery:pike"]
+      },
+      "warhammer": {
+        "key": "warhammer",
+        "name": "戰鎚(Warhammer) - 推擠",
+        "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。",
+        "categories": {},
+        "attributes": {
+          "warhammer": {
+            "name": "戰鎚",
+            "type": "text",
+            "readonly": true,
+            "value": "推擠",
+            "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。"
+          }
+        },
+        "tags": ["推擠"],
+        "order": ["attributes|weapon:mastery:warhammer"]
+      },
+      "whip": {
+        "key": "whip",
+        "name": "長鞭(Whip) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "whip": {
+            "name": "長鞭",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:whip"]
+      },
+      "heavyCrossbow": {
+        "key": "heavyCrossbow",
+        "name": "重弩(Heavy Crossbow) - 推擠",
+        "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。",
+        "categories": {},
+        "attributes": {
+          "heavyCrossbow": {
+            "name": "重弩",
+            "type": "text",
+            "readonly": true,
+            "value": "推擠",
+            "description": "如果你用此武器命中一個生物，你可以將該生物推開最多10英尺，直線遠離你自己，前提是該生物為大型或更小。"
+          }
+        },
+        "tags": ["推擠"],
+        "order": ["attributes|weapon:mastery:heavyCrossbow"]
+      },
+      "longbow": {
+        "key": "longbow",
+        "name": "長弓(Longbow) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "longbow": {
+            "name": "長弓",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:longbow"]
+      },
+      "musket": {
+        "key": "musket",
+        "name": "火槍(Musket) - 減速",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。",
+        "categories": {},
+        "attributes": {
+          "musket": {
+            "name": "火槍",
+            "type": "text",
+            "readonly": true,
+            "value": "減速",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你可以將其速度減少10英尺，直到你的下一回合開始。如果生物被具有此屬性的武器多次命中，速度減少不會超過10英尺。"
+          }
+        },
+        "tags": ["減速"],
+        "order": ["attributes|weapon:mastery:musket"]
+      },
+      "handaxe": {
+        "key": "handaxe",
+        "name": "手斧(Handaxe) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "handaxe": {
+            "name": "手斧",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:handaxe"]
+      },
+      "dart": {
+        "key": "dart",
+        "name": "飛鏢(Dart) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "dart": {
+            "name": "飛鏢",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:dart"]
+      },
+      "shortbow": {
+        "key": "shortbow",
+        "name": "短弓(Shortbow) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "shortbow": {
+            "name": "短弓",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:shortbow"]
+      },
+      "rapier": {
+        "key": "rapier",
+        "name": "刺劍(Rapier) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "rapier": {
+            "name": "刺劍",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:rapier"]
+      },
+      "shortsword": {
+        "key": "shortsword",
+        "name": "短劍(Shortsword) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "shortsword": {
+            "name": "短劍",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:shortsword"]
+      },
+      "handCrossbow": {
+        "key": "handCrossbow",
+        "name": "手弩(Hand Crossbow) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "handCrossbow": {
+            "name": "手弩",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:handCrossbow"]
+      },
+      "blowgun": {
+        "key": "blowgun",
+        "name": "吹箭筒(Blowgun) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "blowgun": {
+            "name": "吹箭筒",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:blowgun"]
+      },
+      "pistol": {
+        "key": "pistol",
+        "name": "手槍(Pistol) - 干擾",
+        "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。",
+        "categories": {},
+        "attributes": {
+          "pistol": {
+            "name": "手槍",
+            "type": "text",
+            "readonly": true,
+            "value": "干擾",
+            "description": "如果你用此武器命中一個生物並對其造成傷害，你在你的下一回合結束前對該生物的下一次攻擊擲骰有**優勢**。"
+          }
+        },
+        "tags": ["干擾"],
+        "order": ["attributes|weapon:mastery:pistol"]
+      },
+      "mace": {
+        "key": "mace",
+        "name": "錘矛(Mace) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "mace": {
+            "name": "錘矛",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:mace"]
+      },
+      "spear": {
+        "key": "spear",
+        "name": "矛(Spear) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "spear": {
+            "name": "矛",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:spear"]
+      },
+      "flail": {
+        "key": "flail",
+        "name": "連枷(Flail) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "flail": {
+            "name": "連枷",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:flail"]
+      },
+      "longsword": {
+        "key": "longsword",
+        "name": "長劍(Longsword) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "longsword": {
+            "name": "長劍",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:longsword"]
+      },
+      "morningstar": {
+        "key": "morningstar",
+        "name": "流星錘(Morningstar) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "morningstar": {
+            "name": "流星錘",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:morningstar"]
+      },
+      "warPick": {
+        "key": "warPick",
+        "name": "戰鎬(War Pick) - 削弱",
+        "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。",
+        "categories": {},
+        "attributes": {
+          "warPick": {
+            "name": "戰鎬",
+            "type": "text",
+            "readonly": true,
+            "value": "削弱",
+            "description": "如果你用此武器命中一個生物，該生物在你的下一回合開始前的下一次攻擊擲骰上有**劣勢**。"
+          }
+        },
+        "tags": ["削弱"],
+        "order": ["attributes|weapon:mastery:warPick"]
+      },
+      "quarterstaff": {
+        "key": "quarterstaff",
+        "name": "長棍(Quarterstaff) - 絆倒",
+        "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。",
+        "categories": {},
+        "attributes": {
+          "quarterstaff": {
+            "name": "長棍",
+            "type": "text",
+            "readonly": true,
+            "value": "絆倒",
+            "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。"
+          }
+        },
+        "tags": ["絆倒"],
+        "order": ["attributes|weapon:mastery:quarterstaff"]
+      },
+      "battleaxe": {
+        "key": "battleaxe",
+        "name": "戰斧(Battleaxe) - 絆倒",
+        "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。",
+        "categories": {},
+        "attributes": {
+          "battleaxe": {
+            "name": "戰斧",
+            "type": "text",
+            "readonly": true,
+            "value": "絆倒",
+            "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。"
+          }
+        },
+        "tags": ["絆倒"],
+        "order": ["attributes|weapon:mastery:battleaxe"]
+      },
+      "lance": {
+        "key": "lance",
+        "name": "騎槍(Lance) - 絆倒",
+        "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。",
+        "categories": {},
+        "attributes": {
+          "lance": {
+            "name": "騎槍",
+            "type": "text",
+            "readonly": true,
+            "value": "絆倒",
+            "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。"
+          }
+        },
+        "tags": ["絆倒"],
+        "order": ["attributes|weapon:mastery:lance"]
+      },
+      "maul": {
+        "key": "maul",
+        "name": "大錘(Maul) - 絆倒",
+        "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。",
+        "categories": {},
+        "attributes": {
+          "maul": {
+            "name": "大錘",
+            "type": "text",
+            "readonly": true,
+            "value": "絆倒",
+            "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。"
+          }
+        },
+        "tags": ["絆倒"],
+        "order": ["attributes|weapon:mastery:maul"]
+      },
+      "trident": {
+        "key": "trident",
+        "name": "三叉戟(Trident) - 絆倒",
+        "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。",
+        "categories": {},
+        "attributes": {
+          "trident": {
+            "name": "三叉戟",
+            "type": "text",
+            "readonly": true,
+            "value": "絆倒",
+            "description": "如果你用此武器命中一個生物，你可以迫使該生物進行一次體質豁免檢定（DC為8加上用於進行攻擊擲骰的能力調整值和你的熟練加值）。若豁免失敗，該生物獲得**俯臥**狀態。"
+          }
+        },
+        "tags": ["絆倒"],
+        "order": ["attributes|weapon:mastery:trident"]
+      },
+      "glaive": {
+        "key": "glaive",
+        "name": "長柄刀(Glaive) - 掠傷",
+        "description": "如果你使用此武器的攻擊擲骰未命中生物，你可以對該生物造成等於你用於進行攻擊擲骰的能力調整值的傷害。這個傷害與武器造成的類型相同，且只能通過增加能力調整值來增加傷害。",
+        "categories": {},
+        "attributes": {
+          "glaive": {
+            "name": "長柄刀",
+            "type": "text",
+            "readonly": true,
+            "value": "掠傷",
+            "description": "如果你使用此武器的攻擊擲骰未命中生物，你可以對該生物造成等於你用於進行攻擊擲骰的能力調整值的傷害。這個傷害與武器造成的類型相同，且只能通過增加能力調整值來增加傷害。"
+          }
+        },
+        "tags": ["掠傷"],
+        "order": ["attributes|weapon:mastery:glaive"]
+      },
+      "greatsword": {
+        "key": "greatsword",
+        "name": "巨劍(Greatsword) - 掠傷",
+        "description": "如果你使用此武器的攻擊擲骰未命中生物，你可以對該生物造成等於你用於進行攻擊擲骰的能力調整值的傷害。這個傷害與武器造成的類型相同，且只能通過增加能力調整值來增加傷害。",
+        "categories": {},
+        "attributes": {
+          "greatsword": {
+            "name": "巨劍",
+            "type": "text",
+            "readonly": true,
+            "value": "掠傷",
+            "description": "如果你使用此武器的攻擊擲骰未命中生物，你可以對該生物造成等於你用於進行攻擊擲骰的能力調整值的傷害。這個傷害與武器造成的類型相同，且只能通過增加能力調整值來增加傷害。"
+          }
+        },
+        "tags": ["掠傷"],
+        "order": ["attributes|weapon:mastery:greatsword"]
+      },
+      "greataxe": {
+        "key": "greataxe",
+        "name": "巨斧(Greataxe) - 橫掃",
+        "description": "如果你使用此武器的近戰攻擊擲骰命中一個生物，你可以對第一個生物5英尺內且在你觸及範圍內的第二個生物進行近戰攻擊擲骰。如果命中，第二個生物受到武器的傷害，但不要將你的能力調整值加到該傷害上，除非該調整值為負數。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "greataxe": {
+            "name": "巨斧",
+            "type": "text",
+            "readonly": true,
+            "value": "橫掃",
+            "description": "如果你使用此武器的近戰攻擊擲骰命中一個生物，你可以對第一個生物5英尺內且在你觸及範圍內的第二個生物進行近戰攻擊擲骰。如果命中，第二個生物受到武器的傷害，但不要將你的能力調整值加到該傷害上，除非該調整值為負數。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["橫掃"],
+        "order": ["attributes|weapon:mastery:greataxe"]
+      },
+      "halberd": {
+        "key": "halberd",
+        "name": "戟(Halberd) - 橫掃",
+        "description": "如果你使用此武器的近戰攻擊擲骰命中一個生物，你可以對第一個生物5英尺內且在你觸及範圍內的第二個生物進行近戰攻擊擲骰。如果命中，第二個生物受到武器的傷害，但不要將你的能力調整值加到該傷害上，除非該調整值為負數。你每回合只能進行一次這種額外攻擊。",
+        "categories": {},
+        "attributes": {
+          "halberd": {
+            "name": "戟",
+            "type": "text",
+            "readonly": true,
+            "value": "橫掃",
+            "description": "如果你使用此武器的近戰攻擊擲骰命中一個生物，你可以對第一個生物5英尺內且在你觸及範圍內的第二個生物進行近戰攻擊擲骰。如果命中，第二個生物受到武器的傷害，但不要將你的能力調整值加到該傷害上，除非該調整值為負數。你每回合只能進行一次這種額外攻擊。"
+          }
+        },
+        "tags": ["橫掃"],
+        "order": ["attributes|weapon:mastery:halberd"]
+      }
+    }
+  }
+}
