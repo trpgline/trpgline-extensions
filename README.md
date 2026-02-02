@@ -36,6 +36,7 @@ type Attribute = {
   height?: string // height of the attribute input field, this field is required when type is paragraph
   hasCustomName?: boolean, // default is false, if true, user can modify the name field
   value: number | string | boolean[] | Record<string, unknown> // varies based on type
+  description: string // description of the attribute
 }
 ```
 
