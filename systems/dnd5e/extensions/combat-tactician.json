@@ -13,12 +13,6 @@
     }
   },
   "data": {
-    "requirements": {
-      "level": 4,
-      "abilities": {
-        "intelligence": 13
-      }
-    },
     "benefits": {
       "description": "You are skilled at coordinating allies in combat and taking advantage of tactical positioning.",
       "mechanics": [
