@@ -1,0 +1,478 @@
+{
+  "agonizingBlast": {
+    "key": "agonizingBlast",
+    "name": "痛苦沖擊（Agonizing Blast）",
+    "description": "先決條件：2級以上魔導師，一個造成傷害的魔導師戲法\n\n選擇一個你已知的造成傷害的魔導師戲法。你可以將你的魅力調整值加到該法術的傷害骰上。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。",
+    "categories": {},
+    "attributes": {
+      "agonizingBlast": {
+        "name": "agonizingBlast",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師，一個造成傷害的魔導師戲法\n\n選擇一個你已知的造成傷害的魔導師戲法。你可以將你的魅力調整值加到該法術的傷害骰上。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:agonizingBlast"]
+  },
+  "armorOfShadows": {
+    "key": "armorOfShadows",
+    "name": "暗影鎧甲（Armor of Shadows）",
+    "description": "你可以在自己身上施展法師護甲而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "armorOfShadows": {
+        "name": "armorOfShadows",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 1",
+        "description": "你可以在自己身上施展法師護甲而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:armorOfShadows"]
+  },
+  "ascendantStep": {
+    "key": "ascendantStep",
+    "name": "躍升步伐（Ascendant Step）",
+    "description": "先決條件：5級以上魔導師\n\n你可以在自己身上施展浮空術而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "ascendantStep": {
+        "name": "ascendantStep",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師\n\n你可以在自己身上施展浮空術而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:ascendantStep"]
+  },
+  "devilsSight": {
+    "key": "devilsSight",
+    "name": "魔鬼之眼（Devil's Sight）",
+    "description": "先決條件：2級以上魔導師\n\n你可以在120尺範圍內正常看見微光和黑暗中的事物——包括魔法和非魔法的黑暗。",
+    "categories": {},
+    "attributes": {
+      "devilsSight": {
+        "name": "devilsSight",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你可以在120尺範圍內正常看見微光和黑暗中的事物——包括魔法和非魔法的黑暗。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:devilsSight"]
+  },
+  "devouringBlade": {
+    "key": "devouringBlade",
+    "name": "吞噬之刃（Devouring Blade）",
+    "description": "先決條件：12級以上魔導師，飢渴之刃祈喚\n\n你的飢渴之刃祈喚的額外攻擊變為兩次額外攻擊，而不是一次。",
+    "categories": {},
+    "attributes": {
+      "devouringBlade": {
+        "name": "devouringBlade",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 12",
+        "description": "先決條件：12級以上魔導師，飢渴之刃祈喚\n\n你的飢渴之刃祈喚的額外攻擊變為兩次額外攻擊，而不是一次。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:devouringBlade"]
+  },
+  "eldritchMind": {
+    "key": "eldritchMind",
+    "name": "魔能心智（Eldritch Mind）",
+    "description": "你在進行維持專注的體質豁免擲骰時具有優勢。",
+    "categories": {},
+    "attributes": {
+      "eldritchMind": {
+        "name": "eldritchMind",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 1",
+        "description": "你在進行維持專注的體質豁免擲骰時具有優勢。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:eldritchMind"]
+  },
+  "eldritchSmite": {
+    "key": "eldritchSmite",
+    "name": "魔能重擊（Eldritch Smite）",
+    "description": "先決條件：5級以上魔導師，鋒刃魔契祈喚\n\n每回合一次，當你用你的契約武器擊中一個生物時，你可以消耗一個契約魔法法術位對目標造成額外1d8力場傷害，每提高一環法術位等級再加1d8，並且你可以使巨型或更小的目標陷入倒地狀態。",
+    "categories": {},
+    "attributes": {
+      "eldritchSmite": {
+        "name": "eldritchSmite",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師，鋒刃魔契祈喚\n\n每回合一次，當你用你的契約武器擊中一個生物時，你可以消耗一個契約魔法法術位對目標造成額外1d8力場傷害，每提高一環法術位等級再加1d8，並且你可以使巨型或更小的目標陷入倒地狀態。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:eldritchSmite"]
+  },
+  "eldritchSpear": {
+    "key": "eldritchSpear",
+    "name": "魔能長槍（Eldritch Spear）",
+    "description": "先決條件：2級以上魔導師，一個造成傷害且射程至少為10尺的魔導師戲法\n\n選擇一個你已知的造成傷害且射程至少為10尺的魔導師戲法。當你施展該法術時，其射程增加等於你魔導師等級乘以30尺的距離。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。",
+    "categories": {},
+    "attributes": {
+      "eldritchSpear": {
+        "name": "eldritchSpear",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師，一個造成傷害且射程至少為10尺的魔導師戲法\n\n選擇一個你已知的造成傷害且射程至少為10尺的魔導師戲法。當你施展該法術時，其射程增加等於你魔導師等級乘以30尺的距離。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:eldritchSpear"]
+  },
+  "fiendishVigor": {
+    "key": "fiendishVigor",
+    "name": "魔鬼活力（Fiendish Vigor）",
+    "description": "先決條件：2級以上魔導師\n\n你可以在自己身上施展虛假生命而不消耗法術位。當你用此特性施展該法術時，你不需要擲骰決定臨時生命值；你自動獲得骰子最大值的臨時生命值。",
+    "categories": {},
+    "attributes": {
+      "fiendishVigor": {
+        "name": "fiendishVigor",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你可以在自己身上施展虛假生命而不消耗法術位。當你用此特性施展該法術時，你不需要擲骰決定臨時生命值；你自動獲得骰子最大值的臨時生命值。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:fiendishVigor"]
+  },
+  "gazeOfTwoMinds": {
+    "key": "gazeOfTwoMinds",
+    "name": "聯心之視（Gaze of Two Minds）",
+    "description": "先決條件：5級以上魔導師\n\n你可以使用一個附贈動作觸碰一個自願的生物，並通過其感官感知，直到你下一回合結束。只要該生物與你處於同一存在位面，你可以在隨後的回合中使用附贈動作維持這種連接，將持續時間延長到你下一回合結束。如果你不以這種方式維持連接，連接就會結束。\n\n當通過另一個生物的感官感知時，你可以受益於該生物擁有的任何特殊感官，並且如果你們彼此之間的距離在60尺以內，你可以像在你的位置或該生物的位置一樣施法。",
+    "categories": {},
+    "attributes": {
+      "gazeOfTwoMinds": {
+        "name": "gazeOfTwoMinds",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師\n\n你可以使用一個附贈動作觸碰一個自願的生物，並通過其感官感知，直到你下一回合結束。只要該生物與你處於同一存在位面，你可以在隨後的回合中使用附贈動作維持這種連接，將持續時間延長到你下一回合結束。如果你不以這種方式維持連接，連接就會結束。\n\n當通過另一個生物的感官感知時，你可以受益於該生物擁有的任何特殊感官，並且如果你們彼此之間的距離在60尺以內，你可以像在你的位置或該生物的位置一樣施法。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:gazeOfTwoMinds"]
+  },
+  "giftOfTheDepths": {
+    "key": "giftOfTheDepths",
+    "name": "深海贈禮（Gift of the Depths）",
+    "description": "先決條件：5級以上魔導師\n\n你可以在水下呼吸，並獲得等同於你速度的游泳速度。\n\n你還可以不消耗法術位施展一次水下呼吸。你完成一次長休息後才能再次以這種方式施展它。",
+    "categories": {},
+    "attributes": {
+      "giftOfTheDepths": {
+        "name": "giftOfTheDepths",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師\n\n你可以在水下呼吸，並獲得等同於你速度的游泳速度。\n\n你還可以不消耗法術位施展一次水下呼吸。你完成一次長休息後才能再次以這種方式施展它。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:giftOfTheDepths"]
+  },
+  "giftOfTheProtectors": {
+    "key": "giftOfTheProtectors",
+    "name": "守護饋贈（Gift of the Protectors）",
+    "description": "先決條件：9級以上魔導師，書卷魔契祈喚\n\n當你召喚你的_影之書_時，一頁新的書頁會出現。在你的許可下，一個生物可以花一個動作在這頁上寫下自己的名字，這頁可以包含等同於你的魅力調整值（最少一個名字）數量的名字。\n\n當任何名字在這頁上的生物的生命值降到0但沒有立即死亡時，該生物的生命值會魔法般地變為1點。一旦這個魔法被觸發，在你完成一次長休息之前，沒有生物可以再次從中受益。\n\n作為一個魔法動作，你可以通過觸摸來擦除頁面上的一個名字。",
+    "categories": {},
+    "attributes": {
+      "giftOfTheProtectors": {
+        "name": "giftOfTheProtectors",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 9",
+        "description": "先決條件：9級以上魔導師，書卷魔契祈喚\n\n當你召喚你的_影之書_時，一頁新的書頁會出現。在你的許可下，一個生物可以花一個動作在這頁上寫下自己的名字，這頁可以包含等同於你的魅力調整值（最少一個名字）數量的名字。\n\n當任何名字在這頁上的生物的生命值降到0但沒有立即死亡時，該生物的生命值會魔法般地變為1點。一旦這個魔法被觸發，在你完成一次長休息之前，沒有生物可以再次從中受益。\n\n作為一個魔法動作，你可以通過觸摸來擦除頁面上的一個名字。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:giftOfTheProtectors"]
+  },
+  "investmentOfTheChainMaster": {
+    "key": "investmentOfTheChainMaster",
+    "name": "鏈主之投資（Investment of the Chain Master）",
+    "description": "先決條件：5級以上魔導師，鎖鏈魔契祈喚\n\n當你施展尋獲魔寵時，你將一部分魔能力量注入召喚的魔寵中，使該生物獲得以下好處。\n\n• 空中或水中：魔寵獲得40尺的飛行速度或游泳速度（由你選擇）。\n• 快速攻擊：作為一個附贈動作，你可以命令魔寵進行攻擊動作。\n• 黯蝕或光耀傷害：每當魔寵造成鈍擊、穿刺或揮砍傷害時，你可以使其改為造成黯蝕或光耀傷害。\n• 你的豁免DC：如果魔寵迫使一個生物進行豁免擲骰，它使用你的法術豁免DC。\n• 抗性：當魔寵受到傷害時，你可以使用一個反應使其對該傷害獲得抗性。",
+    "categories": {},
+    "attributes": {
+      "investmentOfTheChainMaster": {
+        "name": "investmentOfTheChainMaster",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師，鎖鏈魔契祈喚\n\n當你施展尋獲魔寵時，你將一部分魔能力量注入召喚的魔寵中，使該生物獲得以下好處。\n\n• 空中或水中：魔寵獲得40尺的飛行速度或游泳速度（由你選擇）。\n• 快速攻擊：作為一個附贈動作，你可以命令魔寵進行攻擊動作。\n• 黯蝕或光耀傷害：每當魔寵造成鈍擊、穿刺或揮砍傷害時，你可以使其改為造成黯蝕或光耀傷害。\n• 你的豁免DC：如果魔寵迫使一個生物進行豁免擲骰，它使用你的法術豁免DC。\n• 抗性：當魔寵受到傷害時，你可以使用一個反應使其對該傷害獲得抗性。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:investmentOfTheChainMaster"]
+  },
+  "lessonsOfTheFirstOnes": {
+    "key": "lessonsOfTheFirstOnes",
+    "name": "先祖之訓（Lessons of the First Ones）",
+    "description": "先決條件：2級以上魔導師\n\n你從多元宇宙的一個古老實體那裡獲得了知識，允許你獲得一個你選擇的起源專長（見第5章）。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的起源專長。",
+    "categories": {},
+    "attributes": {
+      "lessonsOfTheFirstOnes": {
+        "name": "lessonsOfTheFirstOnes",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你從多元宇宙的一個古老實體那裡獲得了知識，允許你獲得一個你選擇的起源專長（見第5章）。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的起源專長。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:lessonsOfTheFirstOnes"]
+  },
+  "lifedrinker": {
+    "key": "lifedrinker",
+    "name": "生命吸取者（Lifedrinker）",
+    "description": "先決條件：9級以上魔導師，鋒刃魔契祈喚\n\n每回合一次，當你用你的契約武器擊中一個生物時，你可以對該生物造成額外1d6點黯蝕、心靈或光耀傷害（由你選擇），並且你可以消耗一個生命骰來擲骰並恢復等同於擲骰結果加上你的體質調整值的生命值（最少1點生命值）。",
+    "categories": {},
+    "attributes": {
+      "lifedrinker": {
+        "name": "lifedrinker",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 9",
+        "description": "先決條件：9級以上魔導師，鋒刃魔契祈喚\n\n每回合一次，當你用你的契約武器擊中一個生物時，你可以對該生物造成額外1d6點黯蝕、心靈或光耀傷害（由你選擇），並且你可以消耗一個生命骰來擲骰並恢復等同於擲骰結果加上你的體質調整值的生命值（最少1點生命值）。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:lifedrinker"]
+  },
+  "maskOfManyFaces": {
+    "key": "maskOfManyFaces",
+    "name": "千面之臉（Mask of Many Faces）",
+    "description": "先決條件：2級以上魔導師\n\n你可以施展易容術而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "maskOfManyFaces": {
+        "name": "maskOfManyFaces",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你可以施展易容術而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:maskOfManyFaces"]
+  },
+  "masterOfMyriadForms": {
+    "key": "masterOfMyriadForms",
+    "name": "萬形之主（Master of Myriad Forms）",
+    "description": "先決條件：5級以上魔導師\n\n你可以施展變身術而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "masterOfMyriadForms": {
+        "name": "masterOfMyriadForms",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師\n\n你可以施展變身術而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:masterOfMyriadForms"]
+  },
+  "mistyVisions": {
+    "key": "mistyVisions",
+    "name": "迷霧幻影（Misty Visions）",
+    "description": "先決條件：2級以上魔導師\n\n你可以施展無聲幻影而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "mistyVisions": {
+        "name": "mistyVisions",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你可以施展無聲幻影而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:mistyVisions"]
+  },
+  "oneWithShadows": {
+    "key": "oneWithShadows",
+    "name": "融身入影（One with Shadows）",
+    "description": "先決條件：5級以上魔導師\n\n當你處於微光或黑暗區域時，你可以在自己身上施展隱形術而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "oneWithShadows": {
+        "name": "oneWithShadows",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師\n\n當你處於微光或黑暗區域時，你可以在自己身上施展隱形術而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:oneWithShadows"]
+  },
+  "otherworldlyLeap": {
+    "key": "otherworldlyLeap",
+    "name": "超凡跳躍（Otherworldly Leap）",
+    "description": "先決條件：2級以上魔導師\n\n你可以在自己身上施展跳躍而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "otherworldlyLeap": {
+        "name": "otherworldlyLeap",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師\n\n你可以在自己身上施展跳躍而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:otherworldlyLeap"]
+  },
+  "pactOfTheBlade": {
+    "key": "pactOfTheBlade",
+    "name": "鋒刃魔契（Pact of the Blade）",
+    "description": "作為一個附贈動作，你可以在手中召喚一把契約武器——一把你選擇的簡單或軍用近戰武器，你與之建立了聯繫——或者與你觸碰的一件魔法武器建立聯繫；如果有人已經與該魔法武器調諧或另一個魔導師已經與之建立了聯繫，你就無法與之建立聯繫。在聯繫結束之前，你精通該武器，並且可以將其用作施法焦點。\n\n每當你用聯繫武器攻擊時，你可以使用你的魅力調整值代替力量或敏捷進行攻擊和傷害擲骰；你還可以使武器造成黯蝕、心靈或光耀傷害，或者其正常傷害類型。\n\n如果你再次使用這個特性的附贈動作，或者武器離你超過5尺達1分鐘或更長時間，或者你死亡，你與武器的聯繫就會結束。召喚的武器在聯繫結束時消失。",
+    "categories": {},
+    "attributes": {
+      "pactOfTheBlade": {
+        "name": "pactOfTheBlade",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 1",
+        "description": "作為一個附贈動作，你可以在手中召喚一把契約武器——一把你選擇的簡單或軍用近戰武器，你與之建立了聯繫——或者與你觸碰的一件魔法武器建立聯繫；如果有人已經與該魔法武器調諧或另一個魔導師已經與之建立了聯繫，你就無法與之建立聯繫。在聯繫結束之前，你精通該武器，並且可以將其用作施法焦點。\n\n每當你用聯繫武器攻擊時，你可以使用你的魅力調整值代替力量或敏捷進行攻擊和傷害擲骰；你還可以使武器造成黯蝕、心靈或光耀傷害，或者其正常傷害類型。\n\n如果你再次使用這個特性的附贈動作，或者武器離你超過5尺達1分鐘或更長時間，或者你死亡，你與武器的聯繫就會結束。召喚的武器在聯繫結束時消失。"
+      }
+    },
+    "tags": ["Invocation", "Pact"],
+    "order": ["attributes|class:classFeatures:pactOfTheBlade"]
+  },
+  "pactOfTheChain": {
+    "key": "pactOfTheChain",
+    "name": "鎖鏈魔契（Pact of the Chain）",
+    "description": "你學會尋獲魔寵法術，並可以將其作為一個魔法動作施展而不消耗法術位。\n\n當你施展該法術時，你可以為你的魔寵選擇一種正常形態，或者選擇以下特殊形態之一：小魔鬼、僞龍、夸塞魔、骷髏、史萊德蝌蚪、奇蹟斯芬克斯、精靈或毒蛇（見附錄B獲取魔寵的數據表）。\n\n此外，當你進行攻擊動作時，你可以放棄自己的一次攻擊，讓你的魔寵使用其反應進行一次攻擊。",
+    "categories": {},
+    "attributes": {
+      "pactOfTheChain": {
+        "name": "pactOfTheChain",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 1",
+        "description": "你學會尋獲魔寵法術，並可以將其作為一個魔法動作施展而不消耗法術位。\n\n當你施展該法術時，你可以為你的魔寵選擇一種正常形態，或者選擇以下特殊形態之一：小魔鬼、僞龍、夸塞魔、骷髏、史萊德蝌蚪、奇蹟斯芬克斯、精靈或毒蛇（見附錄B獲取魔寵的數據表）。\n\n此外，當你進行攻擊動作時，你可以放棄自己的一次攻擊，讓你的魔寵使用其反應進行一次攻擊。"
+      }
+    },
+    "tags": ["Invocation", "Pact"],
+    "order": ["attributes|class:classFeatures:pactOfTheChain"]
+  },
+  "pactOfTheTome": {
+    "key": "pactOfTheTome",
+    "name": "書卷魔契（Pact of the Tome）",
+    "description": "在短休息或長休息結束時，你可以編織陰影線條，在手中召喚出一本書。這本_影之書_（你決定它的外觀）包含只有你能接觸的魔能魔法，為你提供以下好處。如果你用這個特性召喚另一本書，或者你死亡，這本書就會消失。\n\n戲法和儀式：當書出現時，選擇三個戲法，和兩個帶有儀式標籤的1環法術。這些法術可以來自任何職業的法術列表，並且必須是你尚未準備的法術。當書在你身上時，你已經準備了所選的法術，它們對你來說都是魔導師法術。\n\n施法法器：你可以使用這本書作為施法法器。",
+    "categories": {},
+    "attributes": {
+      "pactOfTheTome": {
+        "name": "pactOfTheTome",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 1",
+        "description": "在短休息或長休息結束時，你可以編織陰影線條，在手中召喚出一本書。這本_影之書_（你決定它的外觀）包含只有你能接觸的魔能魔法，為你提供以下好處。如果你用這個特性召喚另一本書，或者你死亡，這本書就會消失。\n\n戲法和儀式：當書出現時，選擇三個戲法，和兩個帶有儀式標籤的1環法術。這些法術可以來自任何職業的法術列表，並且必須是你尚未準備的法術。當書在你身上時，你已經準備了所選的法術，它們對你來說都是魔導師法術。\n\n施法法器：你可以使用這本書作為施法法器。"
+      }
+    },
+    "tags": ["Invocation", "Pact"],
+    "order": ["attributes|class:classFeatures:pactOfTheTome"]
+  },
+  "repellingBlast": {
+    "key": "repellingBlast",
+    "name": "斥力沖擊（Repelling Blast）",
+    "description": "先決條件：2級以上魔導師，一個通過攻擊擲骰造成傷害的魔導師戲法\n\n選擇一個你已知的需要攻擊擲骰的魔導師戲法。當你用該戲法擊中一個大型或更小的生物時，你可以將該生物推離你最多10尺。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。",
+    "categories": {},
+    "attributes": {
+      "repellingBlast": {
+        "name": "repellingBlast",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 2",
+        "description": "先決條件：2級以上魔導師，一個通過攻擊擲骰造成傷害的魔導師戲法\n\n選擇一個你已知的需要攻擊擲骰的魔導師戲法。當你用該戲法擊中一個大型或更小的生物時，你可以將該生物推離你最多10尺。\n\n可重複：你可以多次獲得這個祈喚。每次你這樣做時，選擇一個不同的符合條件的戲法。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:repellingBlast"]
+  },
+  "thirstingBlade": {
+    "key": "thirstingBlade",
+    "name": "飢渴之刃（Thirsting Blade）",
+    "description": "先決條件：5級以上魔導師，鋒刃魔契祈喚\n\n你只為你的契約武器獲得額外攻擊特性。有了這個特性，當你在你的回合採取攻擊動作時，你可以用該武器攻擊兩次，而不是一次。",
+    "categories": {},
+    "attributes": {
+      "thirstingBlade": {
+        "name": "thirstingBlade",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 5",
+        "description": "先決條件：5級以上魔導師，鋒刃魔契祈喚\n\n你只為你的契約武器獲得額外攻擊特性。有了這個特性，當你在你的回合採取攻擊動作時，你可以用該武器攻擊兩次，而不是一次。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:thirstingBlade"]
+  },
+  "visionsOfDistantRealms": {
+    "key": "visionsOfDistantRealms",
+    "name": "遠境視野（Visions of Distant Realms）",
+    "description": "先決條件：9級以上魔導師\n\n你可以施展秘法眼而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "visionsOfDistantRealms": {
+        "name": "visionsOfDistantRealms",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 9",
+        "description": "先決條件：9級以上魔導師\n\n你可以施展秘法眼而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:visionsOfDistantRealms"]
+  },
+  "whispersOfTheGrave": {
+    "key": "whispersOfTheGrave",
+    "name": "墳墓低語（Whispers of the Grave）",
+    "description": "先決條件：7級以上魔導師\n\n你可以施展死者交談而不消耗法術位。",
+    "categories": {},
+    "attributes": {
+      "whispersOfTheGrave": {
+        "name": "whispersOfTheGrave",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 7",
+        "description": "先決條件：7級以上魔導師\n\n你可以施展死者交談而不消耗法術位。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:whispersOfTheGrave"]
+  },
+  "witchSight": {
+    "key": "witchSight",
+    "name": "魔女視界（Witch Sight）",
+    "description": "先決條件：15級以上魔導師\n\n你獲得30尺範圍的真實視覺。",
+    "categories": {},
+    "attributes": {
+      "witchSight": {
+        "name": "witchSight",
+        "type": "text",
+        "readonly": true,
+        "value": "Lv. 15",
+        "description": "先決條件：15級以上魔導師\n\n你獲得30尺範圍的真實視覺。"
+      }
+    },
+    "tags": ["Invocation"],
+    "order": ["attributes|class:classFeatures:witchSight"]
+  }
+}
