@@ -2,7 +2,7 @@
   "version": 1,
   "system": "dnd2024",
   "extends": {
-    "ids": ["backgrounds","feats","origins","spells_0-3", "spells_4-6", "spells_7-9","toolList"],
+    "ids": ["backgrounds","feats","origins","spells_0-3", "spells_4-6", "spells_7-9","toolList","otherFeatures"],
     "entities": {
       "origins": {
         "id": "origins",
@@ -53,6 +53,13 @@
         "id": "toolList",
         "name": "Tool List",
         "external": "en/toolList.json",
+        "tags": [],
+        "value": {}
+      },
+      "otherFeatures": {
+        "id": "otherFeatures",
+        "name": "Other Features",
+        "external": "en/otherFeatures.json",
         "tags": [],
         "value": {}
       }
